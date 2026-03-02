@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__claude_ai_Notion__notion-fetch",
+      "Bash(npx create-next-app@14:*)",
+      "Bash(npm install:*)",
+      "Bash(npx next build:*)",
+      "Bash(npm run build:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx next lint)",
+      "WebFetch(domain:gym-counter-seven.vercel.app)",
+      "Bash(npm run dev:*)",
+      "Bash(npm run lint:*)"
+    ]
+  }
+}
