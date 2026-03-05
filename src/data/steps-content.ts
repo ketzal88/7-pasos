@@ -57,7 +57,7 @@ const step1: StepContent = {
     {
       type: 'paragraph',
       content:
-        'Si cambias 30 minutos de television por 30 minutos de lectura, en un anio lees entre 12 y 15 libros. En dos anios, eso equivale a un posgrado completo en conocimiento. La diferencia entre quien lee y quien no, es la diferencia entre quien crece y quien se estanca.',
+        'Si cambias 30 minutos de television por 30 minutos de lectura, en un año lees entre 12 y 15 libros. En dos anios, eso equivale a un posgrado completo en conocimiento. La diferencia entre quien lee y quien no, es la diferencia entre quien crece y quien se estanca.',
     },
     {
       type: 'heading',
@@ -82,9 +82,9 @@ const step1: StepContent = {
       content: 'Ejemplos concretos',
       items: [
         '20 minutos de caminata por dia x 180 dias = 60 horas de ejercicio en 6 meses',
-        'Dejar las gaseosas = 5 kg menos de azucar al anio en tu cuerpo',
+        'Dejar las gaseosas = 5 kg menos de azucar al año en tu cuerpo',
         '40 minutos de aprendizaje diario = 120 horas de formacion en 6 meses',
-        '10 minutos de meditacion x 365 = 60 horas de calma mental al anio',
+        '10 minutos de meditacion x 365 = 60 horas de calma mental al año',
       ],
     },
     {
@@ -422,7 +422,7 @@ const step5: StepContent = {
     {
       type: 'quote',
       content:
-        '10 micro-decisiones positivas por dia x 365 dias = 3.650 victorias al anio. Eso es lo que separa a quien cambia de quien se queda donde esta.',
+        '10 micro-decisiones positivas por dia x 365 dias = 3.650 victorias al año. Eso es lo que separa a quien cambia de quien se queda donde esta.',
     },
     {
       type: 'paragraph',
