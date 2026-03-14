@@ -139,7 +139,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
               className="flex items-center gap-3 px-4 py-2.5 rounded-xl text-sm font-medium text-stone-500 hover:text-stone-900 hover:bg-stone-50 transition-all w-full"
             >
               <LogOut size={18} />
-              Cerrar sesion
+              Cerrar sesión
             </button>
           </div>
         </aside>
@@ -176,7 +176,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
                 className="flex items-center gap-3 px-4 py-2.5 rounded-xl text-sm font-medium text-stone-500 hover:text-stone-900 hover:bg-stone-50 transition-all w-full"
               >
                 <LogOut size={18} />
-                Cerrar sesion
+                Cerrar sesión
               </button>
             </nav>
           )}

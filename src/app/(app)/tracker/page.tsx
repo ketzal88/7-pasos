@@ -46,9 +46,9 @@ export default function TrackerPage() {
     return (
       <div className="flex flex-col items-center justify-center py-20 text-center">
         <Trophy size={40} className="text-stone-200 mb-4" />
-        <h2 className="text-xl font-semibold text-stone-700 mb-2">El tracker todavia no esta activo</h2>
+        <h2 className="text-xl font-semibold text-stone-700 mb-2">El tracker todavía no está activo</h2>
         <p className="text-stone-500 mb-6 max-w-sm">
-          Primero lee los 7 pasos y escribi tus 10 objetivos para activar el tracker de 180 dias.
+          Primero leé los 7 pasos y escribí tus 10 objetivos para activar el tracker de 180 días.
         </p>
         <button
           onClick={() => router.push("/dashboard")}
@@ -98,7 +98,7 @@ export default function TrackerPage() {
           <h1 className="text-2xl md:text-3xl font-display font-bold text-stone-900">
             Tracker Diario
           </h1>
-          <p className="text-stone-500 mt-1">Dia {dayNumber} de 180</p>
+          <p className="text-stone-500 mt-1">Día {dayNumber} de 180</p>
         </div>
         <Button onClick={() => setShowAddVictory(true)}>
           <Plus size={16} />
@@ -119,14 +119,14 @@ export default function TrackerPage() {
           <CardContent className="pt-5 pb-5 text-center">
             <TrendingUp size={18} className="text-blue-500 mx-auto mb-1" />
             <div className="text-2xl font-bold text-stone-900">{avgPerDay}</div>
-            <div className="text-xs text-stone-500">Promedio/dia</div>
+            <div className="text-xs text-stone-500">Promedio/día</div>
           </CardContent>
         </Card>
         <Card>
           <CardContent className="pt-5 pb-5 text-center">
             <Flame size={18} className="text-amber-500 mx-auto mb-1" />
             <div className="text-2xl font-bold text-stone-900">{totalVictoriesAllTime}</div>
-            <div className="text-xs text-stone-500">Total (7 dias)</div>
+            <div className="text-xs text-stone-500">Total (7 días)</div>
           </CardContent>
         </Card>
       </div>
@@ -136,8 +136,8 @@ export default function TrackerPage() {
         <div className="flex items-center gap-3 p-4 bg-victoria-50 border border-victoria-200 rounded-2xl">
           <Flame size={20} className="text-victoria-500" />
           <p className="text-sm font-medium text-victoria-700">
-            {todayVictories} victorias hoy. Tu cerebro esta generando oxitocina.
-            Cada victoria te pide mas.
+            {todayVictories} victorias hoy. Tu cerebro está generando oxitocina.
+            Cada victoria te pide más.
           </p>
         </div>
       )}
@@ -169,7 +169,7 @@ export default function TrackerPage() {
           ) : (
             <div className="text-center py-8">
               <Trophy size={32} className="text-stone-200 mx-auto mb-3" />
-              <p className="text-stone-400 mb-4">Todavia no sumaste victorias hoy</p>
+              <p className="text-stone-400 mb-4">Todavía no sumaste victorias hoy</p>
               <Button onClick={() => setShowAddVictory(true)} size="sm">
                 <Plus size={14} />
                 Sumar la primera
@@ -184,12 +184,12 @@ export default function TrackerPage() {
         <CardHeader>
           <h2 className="text-lg font-semibold text-stone-900 flex items-center gap-2">
             <MessageSquare size={18} className="text-stone-400" />
-            Reflexion del dia
+            Reflexión del día
           </h2>
         </CardHeader>
         <CardContent>
           <TextArea
-            placeholder="¿Que aprendiste hoy? ¿Como te sentis? Escribi lo que quieras..."
+            placeholder="¿Qué aprendiste hoy? ¿Cómo te sentís? Escribí lo que quieras..."
             rows={3}
             value={notes}
             onChange={(e) => setNotes(e.target.value)}
@@ -213,7 +213,7 @@ export default function TrackerPage() {
           <CardHeader>
             <h2 className="text-lg font-semibold text-stone-900 flex items-center gap-2">
               <Calendar size={18} className="text-stone-400" />
-              Ultimos dias
+              Últimos días
             </h2>
           </CardHeader>
           <CardContent>
@@ -227,7 +227,7 @@ export default function TrackerPage() {
                   >
                     <div className="flex items-center gap-3">
                       <span className="text-sm font-medium text-stone-600">
-                        Dia {log.dayNumber}
+                        Día {log.dayNumber}
                       </span>
                       <span className="text-xs text-stone-400">{log.date}</span>
                     </div>
@@ -252,8 +252,8 @@ export default function TrackerPage() {
       >
         <form onSubmit={handleAddVictory} className="space-y-4 mt-2">
           <Input
-            label="¿Que lograste?"
-            placeholder="Ej: Lei 20 paginas antes de dormir"
+            label="¿Qué lograste?"
+            placeholder="Ej: Leí 20 páginas antes de dormir"
             value={victoryDesc}
             onChange={(e) => setVictoryDesc(e.target.value)}
             required
@@ -270,7 +270,7 @@ export default function TrackerPage() {
               required
             >
               <option value="" disabled>
-                Selecciona un objetivo
+                Seleccioná un objetivo
               </option>
               {activeObjectives.map((obj, i) => (
                 <option key={obj.id} value={obj.id}>

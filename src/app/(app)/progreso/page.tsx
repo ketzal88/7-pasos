@@ -113,9 +113,9 @@ export default function ProgresoPage() {
     return (
       <div className="flex flex-col items-center justify-center py-20 text-center">
         <Calendar size={40} className="text-stone-200 mb-4" />
-        <h2 className="text-xl font-semibold text-stone-700 mb-2">Progreso no disponible aun</h2>
+        <h2 className="text-xl font-semibold text-stone-700 mb-2">Progreso no disponible aún</h2>
         <p className="text-stone-500 mb-6 max-w-sm">
-          Primero lee los 7 pasos y escribi tus 10 objetivos para ver tu progreso de 180 dias.
+          Primero leé los 7 pasos y escribí tus 10 objetivos para ver tu progreso de 180 días.
         </p>
         <button
           onClick={() => router.push("/dashboard")}
@@ -142,6 +142,7 @@ export default function ProgresoPage() {
           Tu Progreso
         </h1>
         <p className="text-stone-500 mt-1">180 días de micro-decisiones</p>
+
       </div>
 
       {/* Main Progress */}

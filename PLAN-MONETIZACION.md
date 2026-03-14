@@ -1,75 +1,35 @@
-# Plan de Monetizacion: Doble Venta + Cross-sell con GymCounter
+# Plan de Monetizacion: 7 Pasos para Cambiar tu Vida
 
-## Contexto
+## Modelo Actual (v1)
 
-Tenemos 2 productos:
-- **7 Pasos** — Libro digital + tracker de transformacion personal (180 dias)
-- **GymCounter** — App de tracking de gym + rutinas de entrenamiento (protocolo militar 180 dias)
+Un solo producto, un solo precio. Simple.
 
-Ambos comparten la filosofia de 180 dias, disciplina y micro-victorias. Hay un cruce natural.
-
----
-
-## Modelo de Precios
+### Pricing
 
 | Producto | Tipo | Precio |
 |----------|------|--------|
-| 7 Pasos — Libro (lectura) | Pago unico | $7 USD |
-| 7 Pasos — Tracker | Suscripcion | $2 USD/mes |
-| GymCounter | Suscripcion | $5 USD/mes |
-| **Bundle: 7 Pasos + GymCounter** | **Suscripcion** | **$5 USD/mes** (ahorro de $2) |
+| 7 Pasos — Libro completo | Pago unico | $9 USD |
 
-### Logica de acceso
+### Que incluye el pago de $9
 
 ```
-Gratis (sin pago):
+Gratis (sin pago, sin cuenta):
 ├── Landing page
-├── Login/registro
-└── Preview de los 7 pasos (titulo + resumen, sin contenido completo)
+├── Tracker basico (sin guardar progreso)
+└── Preview de los 7 pasos (titulo + resumen)
 
-Libro ($7 unico):
-├── Lectura completa de los 7 pasos
-├── Escribir objetivos
-└── Vista de lectura matutina
-
-Tracker ($2/mes):
-├── Todo lo del libro
-├── Tracker diario de victorias
-├── Calendario 180 dias
-├── Estadisticas y progreso
-└── Notas diarias
-
-Bundle ($5/mes):
-├── Todo lo del tracker de 7 Pasos
-├── GymCounter completo
-├── Dashboard unificado (victorias + gym)
-└── Descuento vs comprar por separado ($7 ahorro)
+Libro completo ($9 unico, acceso de por vida):
+├── Los 7 pasos completos
+├── Framework de micro-decisiones y oxitocina
+├── Defini tus 10 objetivos (4 categorias)
+├── Tracker diario con cuenta (180 dias)
+├── Lectura matutina de tus objetivos
+└── Progreso guardado y visualizacion de racha
 ```
-
----
-
-## Estrategia de Cross-sell
-
-### Desde 7 Pasos → GymCounter
-
-**Momento clave:** Paso 6 ("Tu Cuerpo")
-- Al terminar de leer el Paso 6 (que habla sobre cuidar el cuerpo), mostrar banner:
-  > "El Paso 6 te pide cuidar tu cuerpo. GymCounter te ayuda a trackear tus dias de gym y seguir una rutina de entrenamiento. $5/mes o sumalo a tu plan por solo $3 mas."
-- En el tracker, cuando el usuario agrega una victoria relacionada a un objetivo fisico, sugerir GymCounter
-- En /objetivos, si un objetivo menciona "gym", "entrenar", "cuerpo" → CTA de GymCounter
-
-### Desde GymCounter → 7 Pasos
-
-- En GymCounter, agregar seccion "Transformacion completa":
-  > "GymCounter cuida tu cuerpo. 7 Pasos cambia tu mente. Lee el libro que te da el marco completo para 180 dias de transformacion. $7."
-- Al completar 30 dias en GymCounter → sugerir 7 Pasos como siguiente nivel
-- Bundle discount visible en ambas apps
 
 ---
 
 ## Implementacion Tecnica (Stripe)
-
-### Fase 1: Paywall en 7 Pasos
 
 **Archivos a crear/modificar:**
 - `src/lib/stripe.ts` — Config de Stripe (client + server)
@@ -77,91 +37,54 @@ Bundle ($5/mes):
 - `src/app/api/stripe/webhook/route.ts` — Webhook para confirmar pagos
 - `src/lib/firestore.ts` — Actualizar `UserProfile.subscription`
 
-**Productos en Stripe:**
+**Producto en Stripe:**
 ```
-prod_libro    → price_libro    ($7, one_time)
-prod_tracker  → price_tracker  ($2, recurring/month)
-prod_bundle   → price_bundle   ($5, recurring/month)
+prod_libro → price_libro ($9, one_time)
 ```
 
 **Flujo de pago:**
 ```
-Usuario se registra → ve preview de pasos (gratis)
-  → Quiere leer → checkout $7 (libro)
-  → Termina lectura + objetivos → quiere tracker → checkout $2/mes
-  → O directamente bundle $5/mes
+Usuario visita landing → ve preview de pasos (gratis)
+  → Quiere leer → checkout $9 (libro)
+  → Pago exitoso → acceso completo (lectura + objetivos + tracker)
 ```
 
-**Cambios en el onboarding:**
+**Campos en Firestore:**
 ```
 onboardingPhase: "preview" | "reading" | "objectives" | "tracking"
 subscription: {
-  plan: "free" | "libro" | "tracker" | "bundle"
-  status: "active" | "expired" | "cancelled"
+  plan: "free" | "libro"
+  status: "active" | "none"
   stripeCustomerId: string
-  stripeSubscriptionId?: string
-  currentPeriodEnd?: Timestamp
 }
 ```
 
 - `preview`: puede ver titulos y resumenes de cada paso, pero no el contenido completo
-- `reading`: compro el libro, puede leer todo
-- `objectives` y `tracking`: necesita plan "tracker" o "bundle"
+- `reading`/`objectives`/`tracking`: compro el libro, acceso completo
 
-### Fase 2: Link entre apps
+**Copy del boton:** "Empezar por $9 →"
 
-**Opcion A — Cuentas compartidas (Firebase):**
-- Ambas apps usan el mismo proyecto Firebase
-- El usuario se logea con la misma cuenta
-- El campo `subscription.plan` incluye "bundle" que desbloquea ambas
-
-**Opcion B — Deep links (mas simple):**
-- Cada app mantiene su propio Firebase
-- Al comprar el bundle en una app, se genera un token/codigo
-- El usuario lo ingresa en la otra app para desbloquear
-- Stripe maneja el bundle como un solo producto
-
-**Recomendacion:** Opcion A si ambas apps van a estar bajo el mismo dominio/proyecto. Opcion B si queres mantenerlas 100% separadas.
-
-### Fase 3: Dashboard unificado (bundle)
-
-Para usuarios bundle, agregar una vista que combine:
-- Victorias de 7 Pasos del dia
-- Dias de gym de GymCounter
-- "Streaks" combinados (dias que hizo ambas cosas)
-- Nota: esto seria una pagina nueva en 7 Pasos que consume datos de GymCounter via API compartida
+**Copy de la card:**
+- Tag: "LIBRO COMPLETO"
+- Precio: $9
+- Subtitulo: "USD · Acceso de por vida"
 
 ---
 
-## Pricing Psychology
+## Fase Futura: Cross-sell con GymCounter
 
-| Estrategia | Aplicacion |
-|-----------|-----------|
-| Ancla de precio | Mostrar "$7/mes si compras por separado" junto al bundle de $5 |
-| Pago unico como gancho | $7 por el libro es bajo → una vez adentro, upgrade a tracker |
-| Trial del tracker | 7 dias gratis del tracker despues de comprar el libro |
-| Urgencia | "Dia 1 de tus 180 dias empieza cuando activas el tracker" |
-| Social proof | Contador de usuarios activos, victorias totales de la comunidad |
+Cuando GymCounter este listo, se agrega un tier de suscripcion bundle.
+Hasta entonces, el modelo es simple: $9 y listo.
 
----
-
-## Orden de Implementacion
-
-1. **Stripe basico** — Checkout para libro ($7) + redirect a lectura
-2. **Paywall de contenido** — Pasos muestran preview sin pago, completo con pago
-3. **Suscripcion tracker** — $2/mes para desbloquear tracker + progreso
-4. **Bundle** — $5/mes que incluye ambos
-5. **Cross-sell banners** — CTAs entre las dos apps
-6. **Dashboard unificado** — Vista combinada para usuarios bundle
+### Momento clave de cross-sell: Paso 6 ("Tu Cuerpo")
+- Al terminar el Paso 6, banner sugiriendo GymCounter
+- En el tracker, si el usuario suma una victoria fisica → sugerir GymCounter
 
 ---
 
 ## Metricas a Trackear
 
 - Conversion landing → registro (gratis)
-- Conversion registro → compra libro ($7)
-- Conversion libro → suscripcion tracker ($2/mes)
-- Conversion a bundle ($5/mes)
-- Churn rate mensual del tracker
-- Cross-sell rate (7 Pasos ↔ GymCounter)
+- Conversion registro → compra libro ($9)
 - Dias promedio de retencion (de 180)
+- Victorias promedio por día por usuario activo

@@ -47,20 +47,20 @@ const stepNames = [
   "Todo Cuenta",
   "Objetivos",
   "Tu Entorno",
-  "Autopercepcion",
+  "Autopercepción",
   "Disciplina",
   "Tu Cuerpo",
-  "Tu Relacion con el Mundo",
+  "Tu Relación con el Mundo",
 ];
 
 const stepSummaries = [
-  "Cada micro-decision te acerca o te aleja de tus objetivos",
-  "10 objetivos concretos, escritos en presente, para 180 dias",
-  "Tu entorno define tus resultados. Elegi a los que empujan",
-  "Como te hablas define lo que crees posible",
-  "El musculo que sostiene todo. Se entrena de a poco",
+  "Cada micro-decisión te acerca o te aleja de tus objetivos",
+  "10 objetivos concretos, escritos en presente, para 180 días",
+  "Tu entorno define tus resultados. Elegí a los que empujan",
+  "Cómo te hablás define lo que creés posible",
+  "El músculo que sostiene todo. Se entrena de a poco",
   "Tu cuerpo es la suma de todas tus decisiones",
-  "Perdona, solta, se Suiza. Tu familia primero",
+  "Perdoná, soltá, sé Suiza. Tu familia primero",
 ];
 
 // ─── Reading Phase ───
@@ -76,7 +76,7 @@ function ReadingDashboard({ stepsRead }: { stepsRead: number[] }) {
           Tu camino de 7 pasos
         </h1>
         <p className="text-stone-500 mt-1">
-          Lee cada paso para transformar tu vida en 180 dias
+          Leé cada paso para transformar tu vida en 180 días
         </p>
       </div>
 
@@ -90,7 +90,7 @@ function ReadingDashboard({ stepsRead }: { stepsRead: number[] }) {
               </div>
               <div>
                 <h2 className="font-semibold text-stone-900">Progreso de lectura</h2>
-                <p className="text-sm text-stone-500">{readCount} de 7 pasos leidos</p>
+                <p className="text-sm text-stone-500">{readCount} de 7 pasos leídos</p>
               </div>
             </div>
             <div className="text-right">
@@ -112,7 +112,7 @@ function ReadingDashboard({ stepsRead }: { stepsRead: number[] }) {
               <p className="text-sm font-medium text-blue-700">
                 Ya leiste el Paso 2 sobre objetivos. ¿Queres escribir los tuyos?
               </p>
-              <p className="text-xs text-blue-500 mt-0.5">Podes hacerlo ahora o despues de terminar la lectura</p>
+              <p className="text-xs text-blue-500 mt-0.5">Podés hacerlo ahora o después de terminar la lectura</p>
             </div>
             <ArrowRight size={16} className="text-blue-400" />
           </div>
@@ -125,10 +125,10 @@ function ReadingDashboard({ stepsRead }: { stepsRead: number[] }) {
           <CardContent className="pt-6 pb-6 text-center">
             <Sparkles size={32} className="text-victoria-500 mx-auto mb-3" />
             <h2 className="text-xl font-display font-bold text-stone-900 mb-2">
-              Terminaste la lectura!
+              ¡Terminaste la lectura!
             </h2>
             <p className="text-stone-600 mb-5 max-w-md mx-auto">
-              Ahora es momento de escribir tus 10 objetivos para los proximos 180 dias.
+              Ahora es momento de escribir tus 10 objetivos para los próximos 180 días.
             </p>
             <Link href="/objetivos">
               <Button size="lg">
@@ -239,10 +239,10 @@ function ObjectivesDashboard({
     <div className="space-y-6">
       <div>
         <h1 className="text-2xl md:text-3xl font-display font-bold text-stone-900">
-          Escribi tus 10 objetivos
+          Escribí tus 10 objetivos
         </h1>
         <p className="text-stone-500 mt-1">
-          El paso 2 te pide 10 objetivos escritos en presente, especificos y medibles
+          El paso 2 te pide 10 objetivos escritos en presente, específicos y medibles
         </p>
       </div>
 
@@ -273,14 +273,14 @@ function ObjectivesDashboard({
           <CardContent className="pt-6 pb-6 text-center">
             <Sparkles size={32} className="text-victoria-500 mx-auto mb-3" />
             <h2 className="text-xl font-display font-bold text-stone-900 mb-2">
-              Tus objetivos estan listos!
+              ¡Tus objetivos están listos!
             </h2>
             <p className="text-stone-600 mb-5 max-w-md mx-auto">
-              Ahora activa tu tracker de 180 dias para empezar a sumar victorias diarias.
+              Ahora activá tu tracker de 180 días para empezar a sumar victorias diarias.
             </p>
             <Button size="lg" onClick={handleActivateTracker}>
               <Flame size={18} />
-              Activar tracker de 180 dias
+              Activar tracker de 180 días
               <ArrowRight size={16} />
             </Button>
           </CardContent>
@@ -300,7 +300,7 @@ function ObjectivesDashboard({
                       : `Seguir escribiendo (${10 - objectiveCount} restantes)`}
                   </h3>
                   <p className="text-sm text-stone-500 mt-0.5">
-                    Recordá: en presente, especificos y medibles
+                    Recordá: en presente, específicos y medibles
                   </p>
                 </div>
                 <ArrowRight size={18} className="text-stone-400" />
@@ -314,8 +314,8 @@ function ObjectivesDashboard({
       <div className="flex items-start gap-3 p-4 bg-amber-50 border border-amber-200 rounded-2xl">
         <BookOpen size={18} className="text-amber-500 mt-0.5 flex-shrink-0" />
         <p className="text-sm text-amber-700">
-          <strong>Tip:</strong> si necesitas repasar, podes volver a leer cualquier paso
-          desde la seccion &ldquo;Los 7 Pasos&rdquo; mas abajo.
+          <strong>Tip:</strong> si necesitas repasar, podés volver a leer cualquier paso
+          desde la sección &ldquo;Los 7 Pasos&rdquo; más abajo.
         </p>
       </div>
 
@@ -394,7 +394,7 @@ function TrackingDashboard({ activeObjectives }: { activeObjectives: Objective[]
         <CardContent className="pt-6">
           <div className="flex items-center justify-between mb-4">
             <div>
-              <span className="text-4xl font-bold text-stone-900">Dia {dayNumber}</span>
+              <span className="text-4xl font-bold text-stone-900">Día {dayNumber}</span>
               <span className="text-lg text-stone-400 ml-2">de 180</span>
             </div>
             <div className="text-right">
@@ -420,7 +420,7 @@ function TrackingDashboard({ activeObjectives }: { activeObjectives: Objective[]
               </div>
               <div>
                 <h2 className="font-semibold text-stone-900">Hoy</h2>
-                <p className="text-sm text-stone-500">Tus victorias del dia</p>
+                <p className="text-sm text-stone-500">Tus victorias del día</p>
               </div>
             </div>
             <div className="text-right">
@@ -466,7 +466,7 @@ function TrackingDashboard({ activeObjectives }: { activeObjectives: Objective[]
         <div className="flex items-center gap-3 p-4 bg-amber-50 border border-amber-200 rounded-2xl">
           <Flame size={20} className="text-amber-500" />
           <p className="text-sm font-medium text-amber-700">
-            {todayVictories} victorias hoy. Tu cerebro esta generando oxitocina en cadena.
+            {todayVictories} victorias hoy. Tu cerebro está generando oxitocina en cadena.
           </p>
         </div>
       )}
@@ -525,8 +525,8 @@ function TrackingDashboard({ activeObjectives }: { activeObjectives: Objective[]
       >
         <form onSubmit={handleAddVictory} className="space-y-4 mt-2">
           <Input
-            label="¿Que lograste?"
-            placeholder="Ej: Tome agua en vez de gaseosa"
+            label="¿Qué lograste?"
+            placeholder="Ej: Tomé agua en vez de gaseosa"
             value={victoryDesc}
             onChange={(e) => setVictoryDesc(e.target.value)}
             required
@@ -543,7 +543,7 @@ function TrackingDashboard({ activeObjectives }: { activeObjectives: Objective[]
               required
             >
               <option value="" disabled>
-                Selecciona un objetivo
+                Seleccioná un objetivo
               </option>
               {activeObjectives.map((obj, i) => (
                 <option key={obj.id} value={obj.id}>

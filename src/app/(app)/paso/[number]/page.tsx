@@ -49,9 +49,9 @@ function RenderSection({ section }: { section: StepSection }) {
           <table className="w-full border-collapse">
             <thead>
               <tr className="border-b-2 border-stone-200">
-                <th className="text-left py-3 px-4 text-sm font-semibold text-stone-600">Que sacar</th>
-                <th className="text-left py-3 px-4 text-sm font-semibold text-stone-600">Por que</th>
-                <th className="text-left py-3 px-4 text-sm font-semibold text-stone-600">Que sumar</th>
+                <th className="text-left py-3 px-4 text-sm font-semibold text-stone-600">Qué sacar</th>
+                <th className="text-left py-3 px-4 text-sm font-semibold text-stone-600">Por qué</th>
+                <th className="text-left py-3 px-4 text-sm font-semibold text-stone-600">Qué sumar</th>
               </tr>
             </thead>
             <tbody>
@@ -155,7 +155,7 @@ export default function PasoPage() {
           <AlertCircle size={18} className="text-amber-500 mt-0.5 flex-shrink-0" />
           <div>
             <p className="text-sm font-medium text-amber-700">
-              Todavia no leiste el Paso {stepNumber - 1}
+              Todavía no leíste el Paso {stepNumber - 1}
             </p>
             <p className="text-xs text-amber-600 mt-0.5">
               Te recomendamos leer los pasos en orden para aprovechar mejor el contenido.
@@ -239,10 +239,10 @@ export default function PasoPage() {
               </div>
               <div className="flex-1">
                 <h3 className="font-semibold text-stone-900 mb-1">
-                  ¿Queres escribir tus 10 objetivos ahora?
+                  ¿Querés escribir tus 10 objetivos ahora?
                 </h3>
                 <p className="text-sm text-stone-500 mb-4">
-                  Este paso te pide que definas tus objetivos. Podes hacerlo ahora o seguir leyendo y hacerlo al final.
+                  Este paso te pide que definas tus objetivos. Podés hacerlo ahora o seguir leyendo y hacerlo al final.
                 </p>
                 <div className="flex gap-3">
                   <Link href="/objetivos">
@@ -272,15 +272,15 @@ export default function PasoPage() {
           <CardContent className="pt-8 pb-8 text-center">
             <Sparkles size={40} className="text-victoria-500 mx-auto mb-4" />
             <h2 className="text-2xl font-display font-bold text-stone-900 mb-2">
-              Terminaste los 7 pasos!
+              ¡Terminaste los 7 pasos!
             </h2>
             <p className="text-stone-600 mb-6 max-w-md mx-auto">
-              Increible. Ahora tu cerebro tiene un mapa completo para los proximos 180 dias.
+              Increíble. Ahora tu cerebro tiene un mapa completo para los próximos 180 días.
             </p>
             {activeObjectiveCount >= 10 ? (
               <Button size="lg" onClick={handleActivateTracker}>
                 <Flame size={18} />
-                Activar tracker de 180 dias
+                Activar tracker de 180 días
                 <ArrowRight size={16} />
               </Button>
             ) : (
@@ -302,12 +302,12 @@ export default function PasoPage() {
           {!isRead ? (
             <Button onClick={handleMarkAsRead}>
               <CheckCircle2 size={16} />
-              Termine de leer este paso
+              Terminé de leer este paso
             </Button>
           ) : (
             <span className="inline-flex items-center gap-2 text-victoria-600 font-medium">
               <CheckCircle2 size={16} />
-              Leido
+              Leído
             </span>
           )}
         </div>

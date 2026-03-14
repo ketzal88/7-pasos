@@ -38,7 +38,7 @@ src/
 ├── context/
 │   └── auth-context.tsx              # AuthProvider (user + profile + refreshProfile)
 ├── hooks/
-│   ├── use-daily-log.ts              # Victorias del dia + logs recientes
+│   ├── use-daily-log.ts              # Victorias del día + logs recientes
 │   └── use-objectives.ts             # CRUD de objetivos
 ├── lib/
 │   ├── firebase.ts                   # Init condicional (null-safe para build)

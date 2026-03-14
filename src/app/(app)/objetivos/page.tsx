@@ -100,7 +100,7 @@ export default function ObjetivosPage() {
             Tus 10 Objetivos
           </h1>
           <p className="text-stone-500 mt-1">
-            Escritos en presente, para 180 dias
+            Escritos en presente, para 180 días
           </p>
         </div>
         <div className="flex gap-2">
@@ -124,7 +124,7 @@ export default function ObjetivosPage() {
         <div className="flex items-start gap-3 p-4 bg-blue-50 border border-blue-200 rounded-2xl">
           <BookOpen size={18} className="text-blue-500 mt-0.5 flex-shrink-0" />
           <p className="text-sm text-blue-700">
-            Podes escribir tus objetivos ahora o despues de terminar la lectura de los 7 pasos.
+            Podés escribir tus objetivos ahora o después de terminar la lectura de los 7 pasos.
           </p>
         </div>
       )}
@@ -135,14 +135,14 @@ export default function ObjetivosPage() {
           <CardContent className="pt-6 pb-6 text-center">
             <Sparkles size={28} className="text-victoria-500 mx-auto mb-3" />
             <h2 className="text-lg font-display font-bold text-stone-900 mb-2">
-              Tus 10 objetivos estan listos!
+              ¡Tus 10 objetivos están listos!
             </h2>
             <p className="text-stone-600 mb-4 text-sm max-w-md mx-auto">
-              Ahora activa tu tracker para empezar a sumar victorias diarias durante 180 dias.
+              Ahora activá tu tracker para empezar a sumar victorias diarias durante 180 días.
             </p>
             <Button size="lg" onClick={handleActivateTracker}>
               <Flame size={18} />
-              Activar tracker de 180 dias
+              Activar tracker de 180 días
               <ArrowRight size={16} />
             </Button>
           </CardContent>
@@ -154,7 +154,7 @@ export default function ObjetivosPage() {
         <Lightbulb size={18} className="text-amber-500 mt-0.5 flex-shrink-0" />
         <div className="text-sm text-amber-700">
           <strong>Recorda:</strong> escritos en presente (&ldquo;voy al gimnasio 2 veces por
-          semana&rdquo;, no &ldquo;quiero ir al gimnasio&rdquo;). Que sean especificos, posibles y
+          semana&rdquo;, no &ldquo;quiero ir al gimnasio&rdquo;). Que sean específicos, posibles y
           medibles. Leelos en voz alta cada mañana.
         </div>
       </div>
@@ -226,10 +226,10 @@ export default function ObjetivosPage() {
           <CardContent className="py-12 text-center">
             <Target size={40} className="text-stone-200 mx-auto mb-4" />
             <h3 className="text-lg font-semibold text-stone-700 mb-2">
-              Todavia no tenes objetivos
+              Todavía no tenés objetivos
             </h3>
             <p className="text-stone-500 mb-6 max-w-sm mx-auto">
-              Escribi tus 10 objetivos para los proximos 180 dias. En presente, especificos y medibles.
+              Escribí tus 10 objetivos para los próximos 180 días. En presente, específicos y medibles.
             </p>
             <Button onClick={() => setShowAdd(true)}>
               <Plus size={16} />
@@ -278,7 +278,7 @@ export default function ObjetivosPage() {
             autoFocus
           />
           <div className="space-y-1.5">
-            <label className="block text-sm font-medium text-stone-700">Categoria</label>
+            <label className="block text-sm font-medium text-stone-700">Categoría</label>
             <select
               value={formCategory}
               onChange={(e) => setFormCategory(e.target.value as typeof formCategory)}
@@ -315,7 +315,7 @@ export default function ObjetivosPage() {
             autoFocus
           />
           <div className="space-y-1.5">
-            <label className="block text-sm font-medium text-stone-700">Categoria</label>
+            <label className="block text-sm font-medium text-stone-700">Categoría</label>
             <select
               value={formCategory}
               onChange={(e) => setFormCategory(e.target.value as typeof formCategory)}
@@ -346,7 +346,7 @@ export default function ObjetivosPage() {
       >
         <div className="space-y-1 mt-2">
           <p className="text-sm text-stone-500 mb-6">
-            Lee cada objetivo en voz alta. Senti cada palabra.
+            Leé cada objetivo en voz alta. Sentí cada palabra.
           </p>
           {activeObjectives.map((obj, i) => (
             <div key={obj.id} className="p-4 bg-stone-50 rounded-xl">

@@ -10,7 +10,7 @@ Una app que guia al usuario a traves de 3 etapas:
 
 1. **Leer el libro** — Los 7 pasos se presentan como lectura inmersiva, secuencial, un paso a la vez
 2. **Escribir 10 objetivos** — Al terminar la lectura (o durante el Paso 2), el usuario define sus metas para 180 dias
-3. **Trackear victorias diarias** — Cada dia el usuario registra micro-victorias relacionadas a sus objetivos
+3. **Trackear victorias diarias** — Cada día el usuario registra micro-victorias relacionadas a sus objetivos
 
 ---
 
@@ -30,9 +30,9 @@ Una app que guia al usuario a traves de 3 etapas:
 ### Fase 3: Tracker (180 dias)
 - Barra de progreso: "Dia X de 180"
 - Sumar victorias diarias vinculadas a cada objetivo
-- Reflexion/notas del dia
+- Reflexion/notas del día
 - Calendario de 180 dias estilo heatmap
-- Estadisticas: victorias totales, promedio por dia
+- Estadisticas: victorias totales, promedio por día
 
 ---
 
@@ -102,7 +102,7 @@ Abrir http://localhost:3000
 
 ### Pendiente
 
-- Pagos (Stripe) — libro $7, tracker $2/mes
+- Pagos (Stripe) — libro $9 pago unico
 - Notificaciones/reminders
 - PWA (instalar como app)
-- Integracion con GymCounter (cross-sell)
+- Integracion con GymCounter (cross-sell futuro)
