@@ -42,22 +42,124 @@ const step1: StepContent = {
     'Cada día tenés 1.440 minutos. Lo que hagas con cada uno de ellos construye o destruye tu futuro. No hay decisiones neutrales.',
   sections: [
     {
-      type: 'heading',
-      content: 'Las 1.440 oportunidades de cada día',
+      type: 'quote',
+      content:
+        'Cuanto más cambian las cosas, más siguen siendo las mismas. — Jean-Baptiste Alphonse Karr, 1849',
     },
     {
       type: 'paragraph',
       content:
-        'Cada día tiene 1.440 minutos. Cada uno de esos minutos es una oportunidad de acercarte o alejarte de la persona que querés ser. No existen las decisiones neutrales: o sumás o restás.',
-    },
-    {
-      type: 'heading',
-      content: 'Leer vs. mirar televisión',
+        'Podés cambiar de trabajo, de ciudad, de pareja, de look. Y sin embargo, si no cambiás las micro-decisiones que tomás todos los días, dentro de cinco años vas a estar exactamente en el mismo lugar. Con otra cara enfrente, en otra oficina, en otra dirección. Pero el mismo resultado.',
     },
     {
       type: 'paragraph',
       content:
-        'Si cambiás 30 minutos de televisión por 30 minutos de lectura, en un año leés entre 12 y 15 libros. En dos años, eso equivale a un posgrado completo en conocimiento. La diferencia entre quien lee y quien no, es la diferencia entre quien crece y quien se estanca.',
+        'El cambio real no empieza en lo grande. Empieza en lo que hacés a las siete de la mañana cuando suena el despertador y nadie te está mirando.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Tu vida no la define lo que hacés cuando estás motivado. La define lo que hacés cuando no tenés ganas.',
+    },
+    {
+      type: 'heading',
+      content: 'Los 1.440 minutos',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Hoy tenés 1.440 minutos disponibles. Ayer también. Mañana también. Cada minuto es una decisión. Levantarte o dar vuelta la almohada. Abrir el teléfono o abrir un libro. Comer lo que tenés en el cajón o preparar algo que te haga bien. Tomar el ascensor o subir las escaleras.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'La mayoría de esas decisiones las tomás en piloto automático. Sin pensar. Sin elegir conscientemente. Y eso está bien, el cerebro necesita automatizar la mayor parte de lo que hacés para no colapsar. El problema es cuando las decisiones automáticas te llevan sistemáticamente en la dirección equivocada.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'No es que seas vago. No es que no tengas voluntad. Es que nadie te explicó que esas pequeñas decisiones tienen peso real. Eso cambia hoy. Todo cuenta.',
+    },
+    {
+      type: 'heading',
+      content: 'Por qué tu cerebro no registra el impacto de las decisiones pequeñas',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'El cerebro humano tiene un problema de diseño cuando se trata de tiempo. Somos muy buenos para reaccionar a amenazas inmediatas, un perro que ladra, un auto que se cruza, una pelea con alguien. Somos malísimos para visualizar el impacto acumulativo de decisiones pequeñas a lo largo del tiempo.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        '¿Por qué? Porque evolucionamos en un mundo donde el futuro lejano no importaba tanto. El que sobrevivía era el que reaccionaba al peligro de ahora, no el que planificaba qué comer en tres meses. Eso cambió. Tu contexto cambió. Pero tu cerebro sigue funcionando igual.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Tomás una gaseosa y tu cerebro no registra peligro. No hay alarma. No hay consecuencia inmediata. La conexión entre "gaseosa de hoy" y "salud dentro de diez años" es demasiado abstracta para que el sistema de amenazas del cerebro la procese. Lo mismo con no leer. Con no moverte. Con no dormir bien. Ninguna de esas cosas te mata hoy. El cerebro las da por inocentes. Pero lo que hace una gota de agua todos los días durante un año, lo sabés.',
+    },
+    {
+      type: 'heading',
+      content: 'La matemática que nadie te hizo',
+    },
+    {
+      type: 'list',
+      content: 'Hagamos los números juntos:',
+      items: [
+        '20 minutos de pantalla → 20 minutos de caminata: en 180 días son 60 horas de ejercicio. Desde cero.',
+        'Dejar las gaseosas: una lata tiene 35-40g de azúcar. Una por día = casi 15 kilos de azúcar al año en tu cuerpo.',
+        '30 minutos de lectura en vez de teléfono antes de dormir: en 180 días terminás entre 8 y 12 libros.',
+        '40 minutos de aprendizaje diario: 180 días = 120 horas. La mayoría de cursos universitarios tienen 120 horas de contenido.',
+      ],
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Nada de esto requiere fuerza de voluntad sobrehumana. Requiere entender que el tiempo compuesto funciona. El principio del interés compuesto dice que cualquier sistema donde algo pequeño se acumula consistentemente genera resultados exponenciales. Tus decisiones son ese sistema.',
+    },
+    {
+      type: 'heading',
+      content: 'Lo que la neurociencia dice sobre los hábitos',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Cuando repetís una decisión muchas veces, el cerebro literalmente cambia su estructura física. Esto no es metáfora. Es biología.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Cada vez que hacés algo, las neuronas involucradas se conectan entre sí. La primera vez, la conexión es débil, como un sendero en el barro. La décima vez, el camino empieza a marcarse. La centésima, ya es una ruta. La milésima, es una autopista.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'A ese proceso se lo llama mielinización. La mielina es una sustancia que recubre los axones de las neuronas y los hace más eficientes, más rápidos, más automáticos. Cuanto más repetís algo, más mielina se deposita en esas conexiones, y más fácil se vuelve hacerlo la próxima vez.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Esto tiene dos caras. La buena: cuando instalás una decisión positiva como hábito, con el tiempo requiere cada vez menos esfuerzo. La mala: lo mismo pasa con las decisiones negativas. El teléfono antes de dormir, la gaseosa del almuerzo, quejarte cuando algo sale mal. También son autopistas. También están mielinizadas. Y por eso cuesta tanto cambiarlas: no es debilidad moral, es neurología.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'No estás luchando contra tus malos hábitos. Estás compitiendo contra una autopista que tardaste años en construir. La buena noticia es que el cerebro es plástico, puede remodelarse. La mala es que lleva tiempo. Y el único camino es la repetición. Por eso este programa dura 180 días, no 30.',
+    },
+    {
+      type: 'heading',
+      content: 'No existen las decisiones neutras',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Siempre estás o sumando o restando. No hay pausa, no hay standby. Cuando te quedás una hora más mirando series en vez de dormir, no es que "no hiciste nada". Tomaste una decisión que le va a restar calidad a tu mañana, que va a afectar tu energía, tu claridad, tu paciencia. Realmente restaste.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Esto puede sonar duro. No es para culparte. Es para que entiendas que cada momento tiene dirección. Y vos podés elegir cuál.',
     },
     {
       type: 'heading',
@@ -66,53 +168,62 @@ const step1: StepContent = {
     {
       type: 'paragraph',
       content:
-        'Lo último que entra a tu cerebro antes de dormir es lo que tu subconsciente procesa durante la noche. Si te dormís mirando noticias negativas o scrolleando redes, eso es lo que tu mente trabaja. Cambiá eso por lectura, gratitud o planificación del día siguiente.',
-    },
-    {
-      type: 'heading',
-      content: 'La matemática de las micro-decisiones',
+        'Hay un momento específico que tiene un peso desproporcionado: los últimos 20 o 30 minutos antes de dormir. ¿Por qué? Porque lo último que procesás antes de cerrar los ojos es lo que tu cerebro procesa mientras dormís.',
     },
     {
       type: 'paragraph',
       content:
-        'Las micro-decisiones parecen insignificantes en el momento, pero los números no mienten.',
+        'Matthew Walker, neurocientífico de la Universidad de California Berkeley, explica que durante el sueño profundo y la fase REM el cerebro consolida memorias, procesa emociones y refuerza conexiones neuronales. Y tiende a seguir trabajando con el material que tuvo más actividad al final del día.',
     },
     {
-      type: 'list',
-      content: 'Ejemplos concretos',
-      items: [
-        '20 minutos de caminata por día x 180 días = 60 horas de ejercicio en 6 meses',
-        'Dejar las gaseosas = 5 kg menos de azúcar al año en tu cuerpo',
-        '40 minutos de aprendizaje diario = 120 horas de formación en 6 meses',
-        '10 minutos de meditación x 365 = 60 horas de calma mental al año',
-      ],
+      type: 'paragraph',
+      content:
+        'Si lo último que hiciste fue scrollear noticias malas, tu cerebro procesa angustia. Si te fuiste a dormir con una discusión sin resolver, tu cerebro rumia el conflicto. En cambio, si antes de dormir leíste algo que te hizo pensar, revisaste tus objetivos, o simplemente tuviste diez minutos de silencio, le das al cerebro material distinto para procesar.',
+    },
+    {
+      type: 'heading',
+      content: 'La gente que cambia no es diferente a vos',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Lo que tienen es otra relación con las decisiones pequeñas. El deportista de élite no entrena porque siempre tiene ganas. Entrena porque construyó una identidad alrededor de entrenar. El escritor no escribe todos los días porque está inspirado. Escribe porque en algún momento decidió que escribir es lo que hace, llueva o truene.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'La diferencia entre ellos y alguien que arranca y para y arranca y para no es talento. Es que ellos dejaron de negociar con la decisión. Vos negociás todos los días. "Hoy no. Mañana arranco. Esta semana me organizo." Eso no es debilidad de carácter, es que nunca conectaste la decisión pequeña de hoy con la persona que querés ser.',
+    },
+    {
+      type: 'heading',
+      content: 'Por qué empezamos por acá',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Podría haberte dado técnicas de organización, un sistema de objetivos, un tracker de hábitos. Todo eso viene. Pero si no entendés que cada decisión tiene peso real, esas herramientas son decoración. El Paso 1 no es una técnica. Es un cambio de lente.',
     },
     {
       type: 'quote',
       content:
         'No es lo que hacés una vez lo que define tu vida. Es lo que hacés todos los días, en lo pequeño, cuando nadie te ve.',
     },
-    {
-      type: 'paragraph',
-      content:
-        'Todo cuenta. Cada vaso de agua que elegís sobre una gaseosa. Cada escalera que subís en vez de tomar el ascensor. Cada libro que abrís en vez de abrir una red social. La acumulación de micro-decisiones positivas crea resultados extraordinarios.',
-    },
   ],
   exercise: {
-    title: 'Registro de micro-decisiones',
+    title: 'El ejercicio del Paso 1',
     description:
-      'Cada noche antes de dormir, observá y registrá 3 micro-decisiones que tomaste durante el día. Anotalas en un cuaderno o en tu celular. No las juzgues, solo registralas. La conciencia es el primer paso para el cambio.',
+      'No te voy a pedir que cambies nada todavía. Días 1 a 7: solo observá y registrá. Antes de dormir, anotá las micro-decisiones que tomaste durante el día. Las que sumaron y las que restaron. No te juzgues, no cambies nada. Solo mirá. De ese registro, elegí 4 micro-decisiones negativas que se repitan y que sepas que podés cambiar. No las más difíciles, las más fáciles.',
     weeks: [
-      'Semana 1-2: Solo observá y registrá. No intentes cambiar nada todavía. El objetivo es tomar conciencia de cuántas micro-decisiones tomás sin pensar.',
-      'Semana 3-4: Identificá patrones. ¿Cuáles se repiten? ¿Cuáles te suman y cuáles te restan?',
-      'Semana 5-8: Empezá a reemplazar una micro-decisión negativa por una positiva. Solo una.',
-      'Semana 9-12: Agregá una segunda. La primera ya debería ser automática.',
+      'Días 1-7: Solo observá y registrá. Al cabo de una semana vas a tener un mapa claro de cómo vivís en realidad, no de cómo creés que vivís. Elegí 4 micro-decisiones negativas concretas para cambiar.',
+      'Días 8-28: Durante 21 días seguidos, ejecutás esos 4 cambios. Todos los días. Sin negociar.',
+      'Día 28 — Hacé la cuenta: medio kilo de azúcar menos, 2-3 libros leídos, 7 horas de movimiento acumuladas, 420 minutos de amor repartidos donde más importaban.',
+      'Imaginá 7 micro-decisiones. Imaginá 12. Imaginá 21. Imaginá 180 días. Imaginá un año completo. Imaginá el resto de tu vida. Todo cuenta.',
     ],
   },
   closingQuote:
-    'Tu vida no cambia el día que decidís cambiarla. Cambia el día que empezás a hacer las cosas de manera diferente, una micro-decisión a la vez.',
+    'No es lo que hacés una vez lo que define tu vida. Es lo que hacés todos los días, en lo pequeño, cuando nadie te ve.',
   connectionText:
-    'Todo Cuenta es la base de los 7 pasos. Si no entendés que cada decisión importa, los otros pasos no tienen sentido. Una vez que lo internalizás, el siguiente paso natural es preguntarte: ¿hacia dónde quiero que sumen esas decisiones? Ahí entra el Paso 2.',
+    'Con el Paso 1 claro, surge la pregunta obvia: ¿hacia dónde quiero que sumen todas estas decisiones? Eso es exactamente lo que resolvemos en el Paso 2.',
 };
 
 // =============================================================================
@@ -126,45 +237,113 @@ const step2: StepContent = {
   icon: '\uD83C\uDFAF',
   color: 'blue',
   summary:
-    'Definí 10 objetivos concretos para los próximos 180 días. No deseos vagos: objetivos escritos en presente, específicos y medibles.',
+    'Definí 10 objetivos concretos para los próximos 180 días. Escritos en presente, específicos y medibles. Leelos cada mañana en voz alta.',
   sections: [
     {
+      type: 'paragraph',
+      content:
+        'Ya entendiste que todo cuenta. Ahora necesitás saber para qué cuenta. Porque si no tenés claro hacia dónde vas, no podés saber si tus micro-decisiones te están acercando o alejando. Acá es donde definimos el norte.',
+    },
+    {
       type: 'heading',
-      content: 'Deseo vs. Objetivo',
+      content: 'El estudio que todo el mundo cita mal',
     },
     {
       type: 'paragraph',
       content:
-        'Hay una diferencia enorme entre un deseo y un objetivo. Un deseo es "quiero bajar de peso". Un objetivo es "voy al gimnasio 2 veces por semana y camino 20 minutos los otros días". El deseo es pasivo. El objetivo es una declaración de acción.',
+        'Durante años circuló una historia. Decía que en 1979 Harvard le preguntó a sus graduados si tenían objetivos escritos. Solo el 3% los tenía. Veinte años después, ese 3% ganaba diez veces más que todos los demás juntos. Buena historia, ¿no? El problema es que nunca pasó. El Dr. Steven Kraus, la revista Fast Company y la propia biblioteca de Harvard confirmaron que no hay registros de tal investigación.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Pero cuando la Dra. Gail Matthews, psicóloga de la Universidad Dominican de California, decidió hacer el estudio de verdad, los resultados fueron igual de contundentes. Tomó 267 participantes y los dividió en grupos. Las personas que escribieron sus objetivos los cumplieron un 42% más que las que solo los pensaron. Y las que sumaron compromisos concretos y rendición de cuentas llegaron todavía más lejos.',
     },
     {
       type: 'quote',
       content:
-        'Un deseo es una fantasía. Un objetivo es un compromiso con vos mismo, escrito en presente, como si ya lo estuvieras haciendo.',
+        '42% más de chances de cumplir un objetivo. Por el solo hecho de bajarlo al papel. No hace falta inventar mitos. La realidad ya es suficientemente poderosa.',
     },
     {
       type: 'heading',
-      content: 'Las 5 reglas de un buen objetivo',
-    },
-    {
-      type: 'list',
-      content: 'Tu objetivo debe ser:',
-      items: [
-        'Específico: no "quiero leer más" sino "leo 20 páginas por día"',
-        'Posible: algo que esté dentro de tu alcance real en 180 días',
-        'Medible: que puedas verificar si lo cumpliste o no, sin ambigüedades',
-        'Para 180 días: ni una semana ni cinco años. Seis meses es el horizonte perfecto',
-        'Escrito en tiempo presente: "voy al gimnasio", no "voy a ir al gimnasio"',
-      ],
-    },
-    {
-      type: 'heading',
-      content: '¿Por qué en tiempo presente?',
+      content: 'Por qué el cerebro necesita ver el objetivo escrito',
     },
     {
       type: 'paragraph',
       content:
-        'Cuando escribís un objetivo en futuro ("voy a dejar de fumar"), tu cerebro lo procesa como algo que todavía no está pasando. Cuando lo escribís en presente ("yo elijo no fumar"), tu subconsciente lo registra como una realidad actual y empieza a trabajar a tu favor.',
+        'Cuando un objetivo vive solo en tu cabeza, vive en el mismo lugar que los sueños, las preocupaciones y lo que tenés que comprar en el supermercado. Es ruido entre ruido. Cuando lo escribís, pasa algo distinto a nivel neurológico.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Los investigadores Hirshman y Bjork describieron lo que se llama el "efecto de generación": el cerebro procesa con mucha más profundidad la información que produce que la que solo consume. Cuando escribís un objetivo con tus propias palabras, tu cerebro lo codifica como información prioritaria. Lo marca. Lo sube a la cima de la pila.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Un deseo es una imagen vaga. Un objetivo escrito es una orden.',
+    },
+    {
+      type: 'heading',
+      content: 'La diferencia entre un deseo y un objetivo',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Un deseo es "quiero bajar de peso". "Ojalá pudiera ahorrar más". "Estaría bueno ir al gimnasio". ¿Sabés qué pasa con los deseos? No se cumplen. Son cómodos porque no te comprometen a nada. Un objetivo es otra cosa. "Bajo 5 kilos en los próximos 180 días." Eso tiene forma. Tiene número. Tiene plazo.',
+    },
+    {
+      type: 'list',
+      content: 'La escalera completa:',
+      items: [
+        'Deseo → "Me gustaría ir al gimnasio" → No se cumple nunca.',
+        'Objetivo → "Mi objetivo es ir al gimnasio 2 veces por semana" → Tiene forma.',
+        'Objetivo escrito → Lo bajás al papel → Tu cerebro lo hace real.',
+        'Objetivo en presente → "Voy al gimnasio 2 veces por semana" → Tu mente lo procesa como realidad actual.',
+        'Objetivo + disciplina → Lo sostenés en el tiempo → Se transforma en un resultado.',
+      ],
+    },
+    {
+      type: 'heading',
+      content: '¿Por qué en presente, no en futuro?',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'No es lo mismo escribir "quiero ir al gimnasio" que "voy al gimnasio dos veces por semana". Leélo de nuevo. ¿Sentís la diferencia? "Quiero ir" es un deseo. "Voy al gimnasio" es una realidad. Ya está pasando, al menos en el papel.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Cuando escribís en futuro, tu subconsciente registra distancia. Cuando escribís en presente, registra identidad. Algo que ya sos, que ya hacés. Si te repetís "voy al gimnasio" todos los días, tu cerebro empieza a construir esa identidad. No es magia. Es que el cerebro no distingue bien entre lo que imagina vívidamente y lo que vive.',
+    },
+    {
+      type: 'list',
+      content: 'Ejemplos:',
+      items: [
+        '❌ "Quiero empezar a ir al gimnasio" → ✅ "Voy al gimnasio dos veces por semana"',
+        '❌ "Quiero bajar cinco kilos" → ✅ "Bajo cinco kilos en los próximos 180 días"',
+        '❌ "Me gustaría leer más" → ✅ "Leo un libro por mes"',
+        '❌ "Quiero pasar más tiempo con mis hijos" → ✅ "Juego con mi hijo 40 minutos cada día cuando llego del trabajo"',
+      ],
+    },
+    {
+      type: 'heading',
+      content: 'Ser inteligente no es suficiente. A veces, incluso frena.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Angela Duckworth era profesora de matemática cuando notó que sus mejores alumnos no eran los más inteligentes. Eran los más persistentes. Estudió a miles de personas en entornos de alta exigencia: cadetes de West Point, finalistas de torneos nacionales, maestros en escuelas difíciles. El mejor predictor de éxito no era la inteligencia. Era lo que Duckworth llamó grit: perseverancia con propósito.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Las personas con IQ más alto tenían en algunos estudios menos grit. Los que no tienen todo tan fácil aprenden a compensar trabajando más duro y con más determinación. El que piensa demasiado no arranca. El que arranca, aunque no tenga todo pensado, llega.',
+    },
+    {
+      type: 'quote',
+      content:
+        'Escribilos. Leélos. Actuá. Así de simple. Así de difícil.',
     },
     {
       type: 'heading',
@@ -173,43 +352,62 @@ const step2: StepContent = {
     {
       type: 'paragraph',
       content:
-        'Tus 10 objetivos deben cubrir las cuatro áreas fundamentales de tu vida. No vale poner los 10 en una sola categoría.',
+        'Vas a escribir diez objetivos distribuidos entre cuatro áreas de tu vida. La vida funciona como sistema. Podés estar muy bien en el trabajo y destruido en las relaciones. Cuando te obligás a poner objetivos en las cuatro áreas, obtenés una imagen completa.',
     },
     {
       type: 'list',
       content: 'Categorías:',
       items: [
-        'Personal: salud, hábitos, crecimiento, lectura, meditación',
-        'Profesional: carrera, proyectos, habilidades, ingresos',
-        'Relaciones: pareja, familia, amigos, red de contactos',
-        'Financiero: ahorro, deudas, inversiones, gastos conscientes',
+        'Personal: salud, hábitos, crecimiento, lectura, deporte, alimentación.',
+        'Profesional: carrera, proyectos, habilidades, ingresos, capacitación.',
+        'Relaciones: pareja, hijos, familia, amigos, vínculos que querés construir o cuidar.',
+        'Financiero: ahorro, deudas, inversiones, gastos conscientes, independencia.',
       ],
     },
     {
       type: 'heading',
-      content: 'Leelos en voz alta cada mañana',
+      content: 'La regla de oro: que sean posibles',
     },
     {
       type: 'paragraph',
       content:
-        'Leer tus objetivos en voz alta cada mañana no es un acto místico. Es un ejercicio de programación mental. Tu cerebro necesita recordar hacia dónde va. Si no le recordás todos los días, se distrae con lo urgente y se olvida de lo importante.',
+        'Tus objetivos tienen que ser alcanzables. No fáciles, alcanzables. Si hoy no vas al gimnasio, no pongas "voy todos los días". La brecha es demasiado grande, y lo único que vas a lograr es frustrarte y abandonar. Arrancá con dos veces por semana. Si hoy tomás tres gaseosas, arrancá dejando una.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'El cerebro necesita victorias para seguir. Las victorias imposibles no existen, y las ridículamente fáciles no generan tracción. El punto dulce es el objetivo que te estira un poco pero que sabés que podés cumplir si te lo proponés en serio.',
+    },
+    {
+      type: 'heading',
+      content: 'Leelos cada mañana en voz alta',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Escribir los objetivos una sola vez no alcanza. El cerebro necesita repetición para reforzar las conexiones neuronales. Cada mañana, antes de abrir el teléfono, leés tus diez objetivos en voz alta. No en silencio. En voz alta. Escucharte decirlos en presente activa circuitos distintos que solo leerlos con los ojos.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        '¿Cuánto tarda? Dos minutos. Menos que revisar las notificaciones. ¿Qué hace? Le recuerda a tu cerebro, todos los días, cuál es la dirección. La gaseosa ya no es "una gaseosa", es "algo que me aleja de mi objetivo de bajar cinco kilos". El cambio es sutil. El efecto no.',
     },
   ],
   exercise: {
-    title: 'Escribí tus 10 objetivos',
+    title: 'El ejercicio del Paso 2',
     description:
-      'Sentate con un cuaderno y escribí 10 objetivos concretos para los próximos 180 días. Usá tiempo presente. Cubrí las 4 categorías. Leelos en voz alta cada mañana al despertar.',
+      'Hoy escribís tus diez objetivos. Específicos, posibles, medibles, en presente, para 180 días. No los pienses demasiado. El primer borrador no tiene que ser perfecto.',
     weeks: [
-      'Semana 1: Escribí los 10 objetivos. No te preocupes si no son perfectos. Ponelos en papel.',
-      'Semana 2: Revisalos. ¿Son específicos? ¿Son medibles? ¿Están en presente? Ajustá lo que haga falta.',
-      'Semana 3-4: Leelos en voz alta cada mañana. Observá cómo te sentís al hacerlo.',
-      'Semana 5-12: Seguí leyéndolos. Cada 30 días, marcá tu progreso en cada uno.',
+      'Hoy: Escribí tus 10 objetivos. Específicos, posibles, medibles, en presente, para 180 días.',
+      'Esta semana: Los leés en voz alta cada mañana. Todos los días. Sin excepciones.',
+      'Fin de la primera semana: Revisás si son específicos de verdad. ¿Podés saber con certeza si los estás cumpliendo o no? Si la respuesta no es clara, reescribís hasta que lo sea.',
+      'De ahí en adelante: Los leés cada mañana y al final del día te hacés una sola pregunta: ¿las decisiones que tomé hoy me acercaron o me alejaron de mis objetivos?',
     ],
   },
   closingQuote:
-    'Sin objetivos claros, tus micro-decisiones no tienen dirección. Es como caminar rápido pero sin saber a dónde vas.',
+    'Escribí tus diez objetivos. Leélos cada mañana. Y cada vez que vayas a tomar una decisión, preguntate: ¿esto me acerca o me aleja? Esa pregunta, repetida todos los días, es más poderosa que cualquier técnica de productividad que hayas probado.',
   connectionText:
-    'Los objetivos le dan dirección a las micro-decisiones del Paso 1. Pero de nada sirve tener objetivos claros si tu entorno te tira para abajo. Por eso el Paso 3 es fundamental.',
+    'Con los objetivos claros, surge el siguiente problema: ¿de qué sirve tener dirección si las personas que te rodean te frenan cada vez que intentás avanzar? Eso es lo que resolvemos en el Paso 3.',
 };
 
 // =============================================================================
@@ -223,39 +421,82 @@ const step3: StepContent = {
   icon: '\uD83D\uDC65',
   color: 'violet',
   summary:
-    'Tu entorno te empuja o te frena. Si las personas que te rodean no van hacia donde vos querés ir, vas a terminar yendo hacia donde van ellos.',
+    'Sos el promedio de las cinco personas con las que más tiempo pasás. No es motivación, es ciencia: los hábitos, la felicidad y los resultados se contagian entre personas.',
   sections: [
     {
-      type: 'heading',
-      content: 'Tu entorno te define',
+      type: 'paragraph',
+      content:
+        'Este es el paso más controversial. Y probablemente el más difícil de todos. No porque sea complejo de entender, sino porque es complejo de cambiar. Porque acá entran el amor, el cariño, los años de amistad, la costumbre.',
     },
     {
       type: 'paragraph',
       content:
-        'Sos el promedio de las cinco personas con las que más tiempo pasás. Si tus amigos solo quieren juntarse a tomar alcohol, y vos querés dejar de tomar, tenés un problema de entorno, no de voluntad.',
+        'Pero la verdad hay que decirla: tu entorno define tus resultados.',
     },
     {
       type: 'heading',
-      content: 'Entorno que empuja vs. entorno que frena',
+      content: 'La frase que cambió cómo pienso en esto',
     },
     {
       type: 'paragraph',
       content:
-        'Hay personas que te empujan hacia adelante: te inspiran, te desafían, te apoyan cuando crecés. Y hay personas que te frenan: te critican cuando cambiás, se burlan de tus objetivos, te dicen "para qué" o "no vas a poder".',
-    },
-    {
-      type: 'quote',
-      content:
-        'Es más fácil cambiar de entorno que tener una disciplina de acero. No hace falta ser un héroe. Hace falta rodearte de las personas correctas.',
-    },
-    {
-      type: 'heading',
-      content: 'Las personas que dicen "no" a todo',
+        'Jim Rohn, uno de los mentores de desarrollo personal más influyentes del siglo XX, dijo algo que se repite en todos lados y que sin embargo muy poca gente aplica de verdad: "Sos el promedio de las cinco personas con las que más tiempo pasás."',
     },
     {
       type: 'paragraph',
       content:
-        'Cuidado con las personas que dicen "no" a todo. "No se puede", "no funciona", "no vale la pena". Esas personas no te están protegiendo, te están proyectando sus propios miedos. Su "no" no habla de vos, habla de ellos.',
+        'No es una frase motivacional. Es una descripción de cómo funciona la influencia social. Tus ingresos tienden a ser el promedio de los ingresos de tu círculo cercano. Tu nivel de actividad física tiende a parecerse al de las personas con las que pasás más tiempo. Tus hábitos de alimentación, tu forma de hablar, lo que considerás normal, lo que considerás posible, todo eso está profundamente moldeado por quienes te rodean.',
+    },
+    {
+      type: 'heading',
+      content: 'La ciencia detrás del contagio social',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Hay un estudio que siguió a más de 12.000 personas durante 32 años. Es uno de los más citados en la historia de las ciencias sociales. Y lo que encontraron fue extraordinario: la obesidad, el tabaquismo, la felicidad y los hábitos de ejercicio se propagan entre personas como si fueran contagiosos. No metafóricamente. Con patrones estadísticos similares a los de una enfermedad infecciosa.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Si tu amigo más cercano se vuelve obeso, tu probabilidad de volverte obeso aumenta un 45%. Si es un amigo de tu amigo, sigue siendo un 20% más probable. El efecto llega hasta tres grados de separación. Y funciona en las dos direcciones: si alguien en tu red cercana empieza a hacer ejercicio, a comer mejor, a progresar en su trabajo, eso también se contagia.',
+    },
+    {
+      type: 'heading',
+      content: 'El entorno que te frena',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Si tus amigos lo único que hacen es juntarse a tomar, y tu objetivo es dejar el alcohol, tenés dos opciones: o tenés una disciplina de hierro y vas con ellos y no tomás, o dejás de juntarte un tiempo hasta que no te cueste tanto decir que no. No hay punto medio.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Si tu objetivo es ir al gimnasio dos, tres, cuatro veces por semana, y nadie en tu entorno va al gimnasio, se vuelve cuesta arriba. Porque no tenés con quién compartir ese camino. No tenés a nadie que te diga "dale, vamos" un día que no tenés ganas.',
+    },
+    {
+      type: 'heading',
+      content: 'El entorno del "no"',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Hay algo que pasa mucho y que es muy dañino: rodearte de personas que todo lo resuelven con un "no". "No, yo no puedo dejar de comer azúcar." "No, no puedo ir al gimnasio." "No, no tengo tiempo." Si tu entorno es negativo, vas a normalizar el no. Sus límites se vuelven tus límites sin que te des cuenta.',
+    },
+    {
+      type: 'heading',
+      content: 'El entorno que te empuja',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Ahora imaginate lo contrario. Rodeate de personas que están en el mismo camino de progreso que vos. De repente ir al gimnasio es más fácil porque vas con alguien. Comer mejor es más fácil porque el grupo elige mejor. Leer más es más fácil porque tenés con quién hablar de lo que leíste.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'La investigación mostró algo que parece obvio pero que muy poca gente aplica: cuando las personas perciben que están trabajando junto a otros hacia un objetivo común, su persistencia en tareas difíciles aumenta significativamente. El efecto apareció incluso cuando esas personas no estaban físicamente juntas, solo sabían que otros estaban haciendo lo mismo.',
     },
     {
       type: 'heading',
@@ -264,29 +505,43 @@ const step3: StepContent = {
     {
       type: 'paragraph',
       content:
-        'Cuando empezás a cambiar, tu entorno se incomoda. Porque tu cambio les recuerda lo que ellos no están haciendo. No te sorprendas si al empezar a crecer, algunas personas se alejan o te critican. No es personal. Es su propio espejo.',
+        'Cuando vos empezás a cambiar y tu entorno no, se genera una fricción. Empezás a progresar, y ahí tu entorno se vuelve hostil. Empiezan a cuestionarte. A tomarte el pelo. ¿Por qué pasa esto? Porque tu cambio les recuerda lo que ellos no están haciendo. No es personal. Es un mecanismo de defensa. Cuando alguien a tu alrededor mejora, los demás tienen dos opciones: inspirarse o atacar. Muchos eligen atacar porque es más fácil que cambiar.',
     },
     {
       type: 'paragraph',
       content:
-        'No necesitás cortar relaciones de un día para el otro. Pero sí necesitás ser consciente de quién te suma y quién te resta. Y deliberadamente pasar más tiempo con quienes te empujan.',
+        'Cuando eso pase, y va a pasar, acordate de esto: la incomodidad de tu entorno ante tu cambio es la mejor señal de que vas en la dirección correcta.',
+    },
+    {
+      type: 'heading',
+      content: 'La verdad incómoda',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Es más fácil cambiar de entorno que tener una disciplina de acero. Ese estudio de 32 años lo confirmó con datos: el entorno gana casi siempre. No porque seamos débiles. Sino porque somos profundamente sociales y nuestro cerebro está diseñado para sincronizarse con los que nos rodean.',
+    },
+    {
+      type: 'quote',
+      content:
+        'Es más fácil cambiar de entorno que tener una disciplina de acero. No hace falta ser un héroe todos los días. Hace falta elegir bien con quién pasás el tiempo.',
     },
   ],
   exercise: {
     title: 'Auditoría de entorno',
     description:
-      'Hacé una lista de las 10 personas con las que más tiempo pasás. Al lado de cada nombre, escribí si te empujan (te suman, te inspiran, te desafían) o te frenan (te critican, te limitan, te distraen).',
+      'Hacé una lista de las 10 personas con las que más tiempo pasás. Al lado de cada una escribí una sola palabra: ¿empuja o frena? No lo pienses demasiado. La primera respuesta que te sale es la verdadera.',
     weeks: [
-      'Semana 1: Escribí la lista de 10 personas. Sé honesto con la clasificación.',
-      'Semana 2: Observá cuánto tiempo pasás con cada grupo. Anotá las horas.',
-      'Semana 3-4: Aumentá deliberadamente el tiempo con quienes te empujan. Buscá un grupo o comunidad alineada con tus objetivos.',
-      'Semana 5-12: Reducí gradualmente el tiempo con quienes te frenan. No hace falta dramatismo. Simplemente priorizá diferente.',
+      'Días 1 a 7: Hacé la lista de 10 personas. Clasificalas: empuja o frena. Después mirá los números: la proporción es una fotografía de por qué tu vida está donde está hoy.',
+      'Días 8 a 21: Observá las conversaciones de tu entorno. ¿Cuántas veces escuchás "no se puede", "para qué", "eso no funciona"? Solo registralo.',
+      'Días 22 a 28: Buscá un espacio nuevo con gente alineada a tus objetivos. Un grupo de running, un club de lectura, una comunidad online. No tiene que ser perfecto. Tiene que ser un primer paso.',
+      'De ahí en adelante: Más tiempo con los que empujan. Menos con los que frenan. Sin dramatismo, sin discursos, sin peleas. Solo redirigí tu energía.',
     ],
   },
   closingQuote:
-    'No le pidas peras al olmo. No le pidas apoyo a quien no puede darte lo que no tiene. Buscá las personas correctas.',
+    'Es más fácil cambiar de entorno que tener una disciplina de acero. No hace falta ser un héroe todos los días. Hace falta elegir bien con quién pasás el tiempo.',
   connectionText:
-    'El entorno correcto te facilita todo. Pero hay una voz más poderosa que cualquier amigo o familiar: la voz con la que te hablás a vos mismo. Eso es el Paso 4.',
+    'Con el entorno claro, surge el siguiente problema: incluso rodeado de las personas correctas, hay una voz que tiene más influencia sobre vos que cualquier otra. La tuya. Eso es lo que trabajamos en el Paso 4.',
 };
 
 // =============================================================================
@@ -300,48 +555,91 @@ const step4: StepContent = {
   icon: '\uD83E\uDE9E',
   color: 'amber',
   summary:
-    'La forma en que te hablás a vos mismo programa tu subconsciente. Cada "yo no puedo" es una orden directa a tu cerebro para que no lo intente.',
+    'La persona con la que más hablás en toda tu vida sos vos mismo. Cada "yo no puedo" programa tu subconsciente. Cada "yo soy capaz" también.',
   sections: [
     {
-      type: 'heading',
-      content: 'El poder de cómo te hablás',
+      type: 'paragraph',
+      content:
+        'Este es uno de los pasos más importantes de todo el programa. Y paradójicamente, es el más tonto. El más fácil de hacer. Y el que más efecto genera.',
     },
     {
       type: 'paragraph',
       content:
-        'Cada vez que decís "yo no puedo", "yo no sirvo para esto", "yo siempre fui así", estás programando tu subconsciente. Tu cerebro no distingue entre lo que es verdad y lo que le repetís. Si le decís que no podés, te va a creer.',
+        'Es el combustible para todo lo demás. Sin esto, la disciplina del Paso 5 cuesta el doble. La dirección del Paso 2 se siente lejana. El entorno del Paso 3 te aplasta más fácil.',
     },
     {
       type: 'heading',
-      content: 'El mismo mecanismo que los objetivos',
+      content: 'La conversación más importante de tu vida',
     },
     {
       type: 'paragraph',
       content:
-        '¿Recordás que los objetivos se escriben en presente? La autopercepción funciona con el mismo mecanismo, pero al revés. Cuando decís "yo soy un desastre" en presente, tu cerebro lo procesa como una verdad establecida. Es el mismo poder, pero jugando en tu contra.',
+        'La persona con la que más hablás en toda tu vida sos vos mismo. Más que con tu pareja, más que con tus hijos, más que con cualquier amigo. Investigadores que llevan décadas estudiando el impacto del lenguaje interno sobre el rendimiento humano llegaron a una conclusión que parece obvia pero que casi nadie aplica: la forma en que te hablás afecta directamente lo que sos capaz de hacer. No es metáfora. No es autoayuda. Es neurología.',
+    },
+    {
+      type: 'heading',
+      content: 'El daño del "yo no"',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Pensá cuántas veces dijiste alguna de estas frases: "Yo no puedo ir al gimnasio." "Yo no puedo bajar de peso." "Yo no sé de inteligencia artificial." "Yo no sirvo para esas cosas." "Yo soy un boludo." "Yo nunca voy a ser mi propio jefe."',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Cada vez que decís "yo no puedo", eso se guarda. Se mete en el subconsciente y se queda ahí. Tu cerebro no distingue entre lo que es verdad y lo que le repetís que es verdad. Si le dijiste mil veces que no podés, te cree. Y actúa en consecuencia. No porque seas débil. Sino porque así funciona el sistema.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Es exactamente lo mismo que vimos en el Paso 2 con los objetivos escritos en presente, pero al revés. Cuando escribís "voy al gimnasio dos veces por semana", tu cerebro lo procesa como realidad y trabaja a favor. Cuando te decís "yo no puedo ir al gimnasio", tu cerebro lo procesa como realidad y trabaja en contra. Mismo mecanismo. Dirección opuesta.',
+    },
+    {
+      type: 'heading',
+      content: 'Por qué funciona hablarte bien',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Hay estudios que midieron el rendimiento de personas bajo presión, deportistas, estudiantes, ejecutivos en situaciones de estrés, dependiendo de cómo se hablaban a sí mismos antes y durante la tarea. Los que usaban un lenguaje interno positivo y específico rendían significativamente mejor que los que no.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Pero no se trata solo de dejar de decir "yo no puedo". Se trata de empezar a decir lo contrario. Sin mencionar lo negativo. No digas "yo no soy un boludo". Decí directamente: "Yo amo a mi persona." Uno tiene que amar a quien es. Estar conforme con quién sos. Desde ahí se construye todo lo demás.',
     },
     {
       type: 'quote',
       content:
-        'Yo amo a mi persona. Yo soy capaz. Yo soy responsable de mi vida. Repetí esto hasta que tu cerebro lo crea, porque lo va a creer.',
+        '"Yo amo a mi persona." "Hoy voy a tener un gran día." "Yo soy una persona disciplinada." "Yo voy al gimnasio." "Yo estoy construyendo algo grande." "Yo soy capaz de aprender lo que sea."',
     },
     {
       type: 'heading',
-      content: 'Yo soy responsable - Plan Fénix',
+      content: 'Lo que le decimos a los chicos y dejamos de decirnos de grandes',
     },
     {
       type: 'paragraph',
       content:
-        'Brian Tracy lo llama el Plan Fénix: el momento en que dejás de culpar a otros y decís "yo soy responsable". No porque todo sea tu culpa, sino porque solo vos podés cambiar tu situación. Mientras culpes a otros, les estás dando el poder sobre tu vida.',
+        '¿Te acordás cuando a los nenes chiquitos se les repite como un mantra? "Yo soy muy inteligente, yo soy fuerte, yo soy valiente, yo soy capaz, yo puedo lograr todo lo que me proponga." Se los programa desde chiquitos con una autopercepción positiva. ¿Y qué pasa? Funciona. ¿Por qué dejamos de hacerlo de grandes? Si funciona para un nene de 5 años, funciona para vos también. Tu subconsciente no siente vergüenza. Lo agarra, lo guarda, y actúa en base a eso.',
     },
     {
       type: 'heading',
-      content: 'Valorá lo que tenés',
+      content: 'Valorar lo que ya tenés',
     },
     {
       type: 'paragraph',
       content:
-        'Parte de la autopercepción es dejar de enfocarte solo en lo que te falta y empezar a valorar lo que ya tenés. No desde la conformidad, sino desde la gratitud. La gratitud no te frena, te da una base sólida desde donde crecer.',
+        'Hay otra cara de la autopercepción que es igual de importante: cómo percibís lo que ya lograste. Antes de frustrarte con lo que te falta, reconocé lo que ya construiste. Eso no es conformismo. Es la base desde donde seguís creciendo. Lo que tenés es suficiente. Y lo conseguiste vos.',
+    },
+    {
+      type: 'heading',
+      content: 'Yo soy responsable',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Brian Tracy lo desarrolla en su concepto del Plan Fénix: yo soy responsable. Cada decisión, cada resultado, cada cosa que te pasa, son producto de tus micro-decisiones del día a día. Esto no es para culparte ni para castigarte. Es para empoderarte. Porque si sos responsable de tus fracasos, también sos responsable de tus logros. Cuando decís "yo soy responsable", te devolvés el volante.',
     },
     {
       type: 'heading',
@@ -350,24 +648,24 @@ const step4: StepContent = {
     {
       type: 'paragraph',
       content:
-        'Cada mañana, antes de mirar el celular, antes de hacer cualquier cosa, repetí en voz alta frases que te programen para el día. "Yo soy capaz", "Hoy sumo", "Yo elijo crecer". Suena simple porque es simple. Pero funciona.',
+        'Todas las mañanas, antes de arrancar, decí en voz alta: "Yo amo a mi persona. Qué feliz que soy. Me encanta lo que tengo. Yo soy responsable." Hacelo antes de abrir el teléfono. Antes de revisar mails. Esos treinta segundos le dan a tu cerebro la primera instrucción del día. Y esa instrucción importa.',
     },
   ],
   exercise: {
     title: 'Reprogramá cómo te hablás',
     description:
-      'Durante el día, prestá atención cada vez que te digas algo negativo: "yo no puedo", "soy un idiota", "siempre me pasa lo mismo". Registralo. Después, reescribilo en positivo y en presente.',
+      'Durante el día, prestá atención cada vez que te digas algo negativo. Registralo. Después, reformulalo en positivo. Al final, incorporá el mantra matutino.',
     weeks: [
-      'Semana 1-2: Solo registrá. Cada vez que te descubras hablando en negativo, anotalo. No lo juzgues, solo anotalo.',
-      'Semana 3-4: Al lado de cada frase negativa, escribí la versión positiva. "No puedo" se convierte en "estoy aprendiendo".',
-      'Semana 5-8: Empezá a corregirte en el momento. Cuando te descubras diciendo "no puedo", pará y decilo de nuevo en positivo.',
-      'Semana 9-12: Incorporá el mantra matutino. 3 frases positivas en voz alta cada mañana antes de tocar el celular.',
+      'Días 1 a 7: Registrá cada vez que te decís "yo no puedo", "yo no sé", "yo no sirvo". No cambies nada todavía. Solo contá cuántas veces aparece.',
+      'Días 8 a 21: Cada vez que aparezca un negativo, lo reformulás en el momento. "Yo no puedo" se convierte en "todavía estoy aprendiendo". No tiene que ser perfecto. Tiene que ser distinto.',
+      'Días 22 a 28: Sumás el mantra matutino. Todos los días, antes de abrir el teléfono: "Yo amo a mi persona. Qué feliz que soy. Me encanta lo que tengo. Yo soy responsable." Treinta segundos. Sin excepciones.',
+      'De ahí en adelante: El mantra se queda. Para siempre.',
     ],
   },
   closingQuote:
-    'No sos lo que te pasó. Sos lo que elegís hacer con lo que te pasó. Y esa elección empieza por cómo te hablás.',
+    'Nadie te habla más que vos mismo. Elegí bien lo que te decís.',
   connectionText:
-    'Cuando cambiás cómo te hablás, te das la energía para hacer lo más difícil: ser disciplinado. El Paso 5 es el que separa a quienes hablan de cambiar de quienes realmente cambian.',
+    'Con la autopercepción trabajada, tenés el combustible. Ahora viene el motor: la disciplina. El paso más difícil y el más importante de todos. Eso es el Paso 5.',
 };
 
 // =============================================================================
@@ -381,70 +679,112 @@ const step5: StepContent = {
   icon: '\uD83D\uDCAA',
   color: 'rose',
   summary:
-    'La disciplina es un músculo: se entrena con micro-decisiones diarias. Cada pequeña victoria genera oxitocina y tu cerebro quiere más.',
+    'La disciplina no es un talento innato. Es un músculo que se entrena con repetición. 10 micro-decisiones disciplinadas por día son 1.800 victorias en 180 días.',
   sections: [
     {
-      type: 'heading',
-      content: 'La disciplina es un músculo',
+      type: 'paragraph',
+      content:
+        'Este es el paso más difícil de todos. No hay vueltas. No hay atajos. No hay trucos.',
     },
     {
       type: 'paragraph',
       content:
-        'La disciplina no es un talento con el que se nace. Es un músculo que se entrena. Y como todo músculo, se trabaja de a poco, con repetición, hasta que se fortalece. No arranques queriendo correr una maratón. Arrancá caminando.',
+        'Pero hay algo que muy poca gente entiende sobre la disciplina, y que cuando lo entendés cambia completamente la forma en que la encarás: la disciplina no es un rasgo de personalidad. No es algo que tenés o no tenés. Es un músculo. Y como todo músculo, se entrena.',
     },
     {
       type: 'heading',
-      content: 'Trabajala en las micro-decisiones',
+      content: 'La disciplina no es talento. Es repetición.',
     },
     {
       type: 'paragraph',
       content:
-        'No empieces con grandes gestas de disciplina. Empezá con lo chico: el azúcar en el café, la gaseosa del almuerzo, la galletita de la tarde. Reemplazá gradualmente. Si tomás 3 cucharadas de azúcar, bajá a 2. Después a 1. Después a ninguna. Eso es disciplina real.',
-    },
-    {
-      type: 'heading',
-      content: '21 días para formar un hábito',
+        'Los investigadores que estudiaron durante años qué separa a las personas que logran sus objetivos de las que no llegaron a una conclusión clara: la disciplina no es innata. Se desarrolla. Se construye con repetición, con pequeñas victorias acumuladas, con el hábito de no negociar con la decisión difícil. No es un rasgo de carácter. Es una habilidad. Y como toda habilidad, mejora con la práctica.',
     },
     {
       type: 'paragraph',
       content:
-        'Dicen que se necesitan 21 días para formar un hábito. Es como la gallina y el huevo: el hábito nace de la disciplina, y la disciplina se sostiene con el hábito. Los primeros 21 días son los más difíciles. Después, tu cerebro automatiza y se vuelve más fácil.',
+        'El músculo de la disciplina funciona exactamente igual que el músculo del bíceps. La primera vez que levantás peso te duele. La décima vez duele menos. La centésima, ya no pensás en el esfuerzo. Simplemente lo hacés.',
     },
     {
       type: 'heading',
-      content: 'Oxitocina: la ciencia de las micro-victorias',
+      content: 'Los 21 días y la gallina',
     },
     {
       type: 'paragraph',
       content:
-        'Acá está la clave que nadie te cuenta: cada vez que tomás una micro-decisión positiva, tu cerebro libera oxitocina. Esa hormona te hace sentir bien, te da satisfacción. Y tu cerebro registra esa victoria y quiere más. Es un circuito virtuoso.',
+        'Una gallina tarda exactamente 21 días en empollar un huevo. 21 días sentada, sin moverse, manteniendo la misma conducta todos los días, sin excepción. Con frío, con calor, con ganas o sin ganas. Una gallina. Con un cerebro del tamaño de una nuez. Si una gallina puede sostener una conducta 21 días para hacer nacer algo nuevo, vos también podés.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'La neurociencia lo confirma desde hace décadas: el cerebro necesita alrededor de 21 días de repetición consistente para empezar a automatizar una conducta. Después de 21 días sin azúcar, la gaseosa te empieza a parecer demasiado dulce. Lo que parecía imposible de dejar ahora te parece imposible de volver. Eso mismo aplica para todo.',
+    },
+    {
+      type: 'heading',
+      content: 'La disciplina se trabaja en las micro-decisiones',
+    },
+    {
+      type: 'paragraph',
+      content:
+        '¿Tu objetivo es bajar de peso? No empieces por todo. Empieza por una cosa. Cambiá la gaseosa de todos los días. Solo eso. Cuando eso esté instalado, sacale el azúcar al café. Y si vas a comer azúcar, que sea de algo que de verdad valga la pena. No desperdicies tu tolerancia al azúcar en basura.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'El error que comete casi todo el mundo es querer cambiar todo al mismo tiempo. Arrancan un lunes con dieta nueva, gimnasio todos los días, dejan el alcohol, dejan el azúcar, se acuestan temprano y se levantan a las seis. Para el jueves están quemados y abandonaron todo. No es falta de voluntad. Es que intentaron levantar demasiado peso para el músculo que tenían en ese momento.',
+    },
+    {
+      type: 'heading',
+      content: 'La magia de la oxitocina',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Cada micro-logro que alcanzás genera oxitocina en tu cerebro. La misma hormona que se libera cuando abrazás a alguien que querés, cuando terminás algo que empezaste, cuando ganás. Cada vez que tomás una decisión disciplinada, tu cerebro la registra como una victoria. Y esa oxitocina genera una sensación de bienestar que el cerebro quiere repetir.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Ese día que estabas cansado y no tenías ganas de ir al gimnasio, pero fuiste igual. Tu cerebro lo registró como victoria. Y la próxima vez que no tengas ganas, ese registro está ahí. No te estoy pidiendo que seas un héroe. Te estoy pidiendo que acumules victorias pequeñas hasta que el cerebro empiece a pedirte más por su cuenta.',
+    },
+    {
+      type: 'heading',
+      content: 'Hacé las cuentas',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Si tomás 10 micro-decisiones disciplinadas por día, solo diez, son 70 por semana, 300 por mes, 3.650 micro-decisiones en un año. En 180 días, que es lo que dura este programa, son 1.800 micro-decisiones disciplinadas. Mil ochocientas veces que elegiste bien. Eso es la disciplina. No es heroica. No es sobrehumana. Es elegir bien, muchas veces, de a poco.',
+    },
+    {
+      type: 'heading',
+      content: 'Siempre comparate con vos de ayer',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'La única comparación que vale es con vos mismo de ayer. ¿Hoy hiciste más que ayer? ¿Esta semana fuiste más al gimnasio que la semana pasada? ¿Este mes leíste más que el mes anterior? Si la respuesta es sí, vas bien. Sin importar dónde está el de al lado.',
     },
     {
       type: 'quote',
       content:
-        '10 micro-decisiones positivas por día x 365 días = 3.650 victorias al año. Eso es lo que separa a quien cambia de quien se queda donde está.',
-    },
-    {
-      type: 'paragraph',
-      content:
-        'La disciplina no se trata de sacrificio. Se trata de acumular micro-victorias hasta que tu cerebro no quiera volver atrás. Cada vez que elegís bien, tu cuerpo te lo agradece con química. Usá eso a tu favor.',
+        'La disciplina no es castigarte. Es elegirte.',
     },
   ],
   exercise: {
     title: 'Elegí UNA batalla diaria',
     description:
-      'Elegí UNA sola micro-decisión diaria y comprometete a ganarla todos los días. No dos, no tres. UNA. Cuando esa ya sea automática (21 días mínimo), agregá otra.',
+      'Elegí UNA sola micro-decisión diaria y comprometete a ganarla todos los días. No dos, no tres. UNA. Cuando esa ya sea automática, agregá otra.',
     weeks: [
-      'Semana 1-3: Elegí tu batalla. Puede ser: no azúcar en el café, caminar 15 min, no celular antes de dormir. Cualquiera, pero UNA.',
-      'Semana 4-6: Si la ganaste 21 días seguidos, ya es hábito. Agregá una segunda batalla.',
-      'Semana 7-9: Dos batallas activas. Seguí acumulando victorias.',
-      'Semana 10-12: Agregá la tercera si las dos anteriores ya son automáticas. Al final tenés 3 hábitos nuevos sólidos.',
+      'Días 1 a 21: Elegí UNA sola batalla. Un momento del día donde sabés que fallás sistemáticamente y decidís ganarla. El azúcar en el café, la gaseosa del mediodía, el scroll antes de dormir. Solo una. Todos los días. Sin negociar.',
+      'Días 22 a 42: Si ganaste la primera batalla 21 días seguidos, ya es hábito. Ahora sumás una segunda. Solo una más.',
+      'Días 43 en adelante: Con dos hábitos instalados, el músculo ya está más fuerte. Cada nueva batalla va a costar menos que la anterior. Al final de los 180 días, tenés entre 4 y 6 hábitos nuevos instalados. Permanentemente.',
     ],
   },
   closingQuote:
-    'La disciplina es hacer lo que tenés que hacer, cuando lo tenés que hacer, tengas ganas o no. Pero el secreto es que cuanto más lo hacés, más ganas tenés.',
+    'La disciplina no es castigarte. Es elegirte.',
   connectionText:
-    'La disciplina se aplica a todo, pero hay un área donde el impacto es más inmediato y visible: tu cuerpo. El Paso 6 es donde la disciplina se materializa.',
+    'Con la disciplina entrenada, tenés las herramientas para cambiar casi cualquier cosa. Pero hay algo que muchos ignoran y que puede tirar todo por la borda: el estado de la máquina que ejecuta todo esto. Tu cuerpo. Eso es lo que trabajamos en el Paso 6.',
 };
 
 // =============================================================================
@@ -458,64 +798,83 @@ const step6: StepContent = {
   icon: '\uD83E\uDDEC',
   color: 'cyan',
   summary:
-    'Tu cuerpo es el vehículo de todo lo demás. El cerebro usa el 20% de tu energía. Lo que comés, cómo dormís y cuánto te movés determina tu capacidad mental.',
+    'Tu cuerpo no miente. Es el resultado visible de todo lo anterior. El cerebro consume el 20% de tu energía. Si le das basura, funciona con basura.',
   sections: [
     {
+      type: 'paragraph',
+      content:
+        'Tu cuerpo es la suma y resultado de todo. De cada decisión que tomaste, de cada cosa que comiste, de cada noche que dormiste bien o mal, de cada vez que te moviste o te quedaste quieto. Tu cuerpo no miente. Es el resultado visible de los cinco pasos anteriores.',
+    },
+    {
       type: 'heading',
-      content: 'Tu cuerpo es la suma de todo',
+      content: 'Tu cuerpo es tu vehículo para los 180 días',
     },
     {
       type: 'paragraph',
       content:
-        'Tu cuerpo no es algo separado de tu mente. Tu cerebro usa el 20% de toda la energía de tu cuerpo. Si le das basura, funciona como basura. Si le das lo que necesita, rinde al máximo. Es así de simple.',
+        'Tus objetivos del Paso 2 necesitan un cuerpo que funcione. Tu disciplina del Paso 5 necesita energía. Tu autopercepción del Paso 4 se alimenta de cómo te sentís físicamente. Si estás cansado todo el día, no vas a tener energía para tomar buenas micro-decisiones. Si comés basura, tu cerebro funciona lento. El cuerpo no es un tema aparte. Es la base de todo.',
     },
     {
       type: 'heading',
-      content: 'La ciencia del azúcar',
+      content: 'Lo que le pasa a tu cerebro cuando comés mal',
     },
     {
       type: 'paragraph',
       content:
-        'El azúcar activa las mismas zonas del cerebro que la cocaína. No es una exageración, es neurociencia. Cuando comés azúcar, tu cerebro pide más. Es una adicción real. Y la industria alimentaria lo sabe y lo explota.',
+        'Tu cerebro consume el 20% de la energía total de tu cuerpo. Es el órgano que más energía gasta, con diferencia. Y esa energía viene directamente de lo que comés. Cuando comés azúcar refinada, galletitas, gaseosas, tu glucosa en sangre pega un pico altísimo. Te sentís bien por 20 minutos. Después se desploma. Y ahí viene el bajón, el sueño, la falta de concentración, las ganas de comer más azúcar. Es un ciclo. Y es adictivo.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Los estudios sobre adicción y comportamiento cerebral muestran que el azúcar activa los mismos circuitos de recompensa en el cerebro que ciertas drogas. No es exageración, es cómo funciona la neurología del placer. La industria alimentaria lo sabe hace décadas y diseña los productos exactamente así.',
     },
     {
       type: 'heading',
-      content: 'Qué sacar y qué sumar',
+      content: 'Hacé las cuentas',
     },
     {
-      type: 'table',
-      content: 'Guía práctica de cambios',
-      rows: [
-        {
-          col1: 'Azúcar refinada',
-          col2: 'Activa adicción, inflama, roba energía',
-          col3: 'Proteína en cada comida',
-        },
-        {
-          col1: 'Ultra-procesados',
-          col2: 'Sin nutrientes reales, llenos de químicos',
-          col3: 'Verduras y frutas reales',
-        },
-        {
-          col1: 'Harina blanca',
-          col2: 'Se convierte en azúcar en tu cuerpo',
-          col3: '2 litros de agua por día',
-        },
-        {
-          col1: 'Sedentarismo',
-          col2: 'Tu cuerpo se atrofia sin movimiento',
-          col3: 'Movimiento diario (caminar, entrenar)',
-        },
-        {
-          col1: 'Celular antes de dormir',
-          col2: 'Destruye la calidad de sueño',
-          col3: '7-8 horas de sueño real',
-        },
-        {
-          col1: 'Comer por ansiedad',
-          col2: 'Ciclo emocional destructivo',
-          col3: 'Respiración consciente 5 min/día',
-        },
+      type: 'paragraph',
+      content:
+        'Si le ponés 2 cucharaditas de azúcar a cada café y tomás 2 cafés por día, son 20 gramos de azúcar por día. En 180 días son 3.600 gramos de azúcar solo del café. Eso equivale a unas 14.400 calorías vacías, aproximadamente 1,5 kilos de grasa que tu cuerpo almacena solo por ponerle azúcar al café. Sin contar la gaseosa. Sin contar las galletitas.',
+    },
+    {
+      type: 'heading',
+      content: 'El sueño no es opcional',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Mientras dormís, tu cuerpo hace cosas que no puede hacer despierto. Repara tejidos. Equilibra hormonas. Consolida todo lo que aprendiste durante el día. Dormir menos de 7 horas de manera consistente tiene efectos documentados sobre el sistema inmune, el metabolismo, la capacidad de tomar decisiones y el control emocional. No es debilidad dormir 8 horas. Es mantenimiento básico de la máquina.',
+    },
+    {
+      type: 'heading',
+      content: 'Lo que tenés que dejar',
+    },
+    {
+      type: 'list',
+      content: 'Dejar de comer y hacer:',
+      items: [
+        'Azúcar refinada todos los días: galletitas, gaseosas, el budín del kiosco. No te aportan nada y te sacan energía y concentración.',
+        'Comida ultra-procesada: si la lista de ingredientes tiene más de cinco cosas y la mitad no las podés pronunciar, no es comida.',
+        'Harinas blancas en exceso: se convierten en azúcar en tu cuerpo casi instantáneamente.',
+        'Quedarte sentado 8 horas sin moverte: cada 45 minutos levantate, caminá, estirate dos minutos.',
+        'Dormir con el celular al lado: la luz azul interfiere con la melatonina y te roba horas de descanso.',
+      ],
+    },
+    {
+      type: 'heading',
+      content: 'Lo que tenés que empezar a hacer',
+    },
+    {
+      type: 'list',
+      content: 'Sumar desde hoy:',
+      items: [
+        'Proteínas en cada comida: huevos, pollo, carne, pescado, legumbres. Estabilizan la glucosa y alimentan tus músculos.',
+        'Vegetales y frutas todos los días. No hace falta volverse nutricionista. Un tomate, una banana, una zanahoria.',
+        'Agua: mínimo 2 litros por día. 2 litros x 180 días son 360 litros de hidratación limpia.',
+        'Moverte todos los días: 20 minutos caminando, 15 minutos de ejercicios en casa. 20 min x 180 días = 60 horas de movimiento.',
+        'Dormir 7 u 8 horas. No es negociable.',
+        'Respirar consciente: 5 minutos por día. Cuatro segundos inhalar, cuatro sostener, seis exhalar. Baja el cortisol. Es gratis.',
       ],
     },
     {
@@ -525,38 +884,49 @@ const step6: StepContent = {
     {
       type: 'paragraph',
       content:
-        'Cuando dormís bien, tenés energía. Cuando tenés energía, comés mejor. Cuando comés mejor, te movés más. Cuando te movés más, dormís mejor. Es un círculo virtuoso. Solo necesitás empujar la primera ficha.',
+        'Cuando comés mejor, tu energía sube. Cuando tu energía sube, tomás mejores micro-decisiones. Cuando tomás mejores micro-decisiones, tu disciplina se fortalece. Cuando tu disciplina se fortalece, alcanzás más objetivos. Cuando alcanzás más objetivos, tu cerebro libera más oxitocina. Todo empieza con una sola ficha: la próxima cosa que te metas en la boca, el próximo paso que des, la próxima hora que decidas dormir en vez de scrollear.',
     },
     {
-      type: 'heading',
-      content: 'La matemática de 180 días',
-    },
-    {
-      type: 'paragraph',
-      content:
-        'En 180 días tu cuerpo se transforma completamente. Cada célula de tu cuerpo se renueva. Si durante esos 180 días le das los materiales correctos, el cuerpo que vas a tener en 6 meses va a ser literalmente diferente al que tenés hoy.',
+      type: 'table',
+      content: 'Tu guía de cambios',
+      rows: [
+        {
+          col1: 'Azúcar en el café (2 por día)',
+          col2: '3.600g de azúcar en 180 días = 1,5kg de grasa',
+          col3: 'Café sin azúcar',
+        },
+        {
+          col1: 'Gaseosa del mediodía',
+          col2: 'Pico de glucosa, bajón, más hambre',
+          col3: 'Agua con limón',
+        },
+        {
+          col1: 'Scroll del celular antes de dormir',
+          col2: 'Destruye melatonina, roba horas de sueño',
+          col3: 'Leer 3 páginas de un libro',
+        },
+      ],
     },
     {
       type: 'quote',
       content:
-        'Tu cuerpo no es un obstáculo. Es tu herramienta principal. Cuidalo como cuidarías la única herramienta que tenés para construir la vida que querés.',
+        'Tu cuerpo no es un obstáculo. Es tu socio. Es el vehículo que te va a llevar de donde estás a donde querés ir. Cada cosa que comés, cada minuto que te movés, cada hora que dormís, es una micro-decisión. Y vos ya sabés que todo cuenta.',
     },
   ],
   exercise: {
-    title: 'Registro de cuerpo + 1 cambio',
+    title: 'Registro + 1 cambio',
     description:
-      'Llevá un registro diario simple de 3 cosas: qué comiste, cuánto dormiste y cuánto te moviste. Además, eliminá 1 cosa mala y agregá 1 cosa buena.',
+      'Anotá todo lo que comés, cuánto dormís y cuánto te movés. Sin juzgar. Solo observar. Al final de la primera semana vas a tener un mapa claro de dónde están las fugas.',
     weeks: [
-      'Semana 1-2: Solo registrá comida, sueño y movimiento. No cambies nada todavía. Observá tus patrones.',
-      'Semana 3-4: Eliminá UNA cosa de la columna "Qué sacar". Empezá por la más fácil para vos.',
-      'Semana 5-8: Agregá UNA cosa de la columna "Qué sumar". Sostené las dos.',
-      'Semana 9-12: Evaluá. Agregá un segundo cambio en cada columna si los primeros ya son hábito.',
+      'Días 1 a 7: Anotá todo lo que comés, cuánto dormís y cuánto te movés. Sin juzgar. Solo observá. Al final tenés un mapa claro de dónde están las fugas.',
+      'Días 8 a 28: Sacás UNA cosa mala de ese mapa y sumás UNA cosa buena. Solo una de cada. Sostenelas 21 días.',
+      'Días 29 en adelante: Con ese primer cambio instalado, sumás uno más. Y después otro. Al final de los 180 días, tu cuerpo no va a ser el mismo.',
     ],
   },
   closingQuote:
-    'En 180 días podés tener un cuerpo completamente diferente. No necesitás un gimnasio caro ni una dieta imposible. Necesitás micro-decisiones conscientes, todos los días.',
+    'Tu cuerpo no es un obstáculo. Es tu socio. Es el vehículo que te va a llevar de donde estás a donde querés ir. Cada cosa que comés, cada minuto que te movés, cada hora que dormís, es una micro-decisión. Y vos ya sabés que todo cuenta.',
   connectionText:
-    'Con el cuerpo funcionando bien, tenés la energía y la claridad para el último paso: tu relación con el mundo. El Paso 7 cierra el círculo y conecta todo.',
+    'Con el cuerpo funcionando bien, tenés energía y claridad para el último paso. Que es el que menos hablan los libros de autoayuda y el que más pesa en la calidad de tu vida: tu relación con el mundo. Eso es el Paso 7.',
 };
 
 // =============================================================================
@@ -570,8 +940,13 @@ const step7: StepContent = {
   icon: '\uD83D\uDD4A\uFE0F',
   color: 'indigo',
   summary:
-    'Perdonar es soltar el peso que te frena. Sé Suiza: no entres en guerras que no son tuyas. Priorizá a tu familia y limpiá tus vínculos.',
+    'El rencor vive en vos, no en el otro. Perdonar no es decir que estuvo bien. Es soltar el peso. Sé Suiza: neutral en todo, en guerra con nadie.',
   sections: [
+    {
+      type: 'paragraph',
+      content:
+        'Este es el último paso. Y es el que cierra todo. En el Paso 3 hablamos de con quién te rodeás. Acá vamos más profundo: hablamos de cómo te relacionás con esas personas y con el mundo en general. Porque podés comer bien, dormir bien, tener objetivos claros, disciplina, una autopercepción sólida, pero si tu relación con el mundo te genera bronca, resentimiento y angustia constante, todo lo demás se cae.',
+    },
     {
       type: 'heading',
       content: 'Todo es personal',
@@ -579,21 +954,40 @@ const step7: StepContent = {
     {
       type: 'paragraph',
       content:
-        'Todo lo que te pasa en la vida es personal. Tus relaciones, tus conflictos, tus resentimientos. Todo pesa. Y ese peso te frena. Para avanzar, necesitás soltar.',
-    },
-    {
-      type: 'heading',
-      content: 'El perdón es para vos',
+        'Esto lo tenés que entender bien: todo lo que te duele, te molesta, te enoja, te frustra, es personal. Siempre. La bronca que sentís por algo que te dijo alguien no la siente el otro. La sentís vos. El rencor que guardás por algo que te hicieron no le pesa al otro. Te pesa a vos. La angustia por una pelea, por una traición, por una injusticia, no le quita el sueño al otro. Te lo quita a vos.',
     },
     {
       type: 'paragraph',
       content:
-        'Perdonar no es decirle al otro que lo que hizo está bien. Perdonar es soltar el peso que llevás encima. Es para vos, no para el otro. Mientras no perdones, esa persona sigue teniendo poder sobre tu vida, tu energía y tus emociones.',
+        'Entonces la pregunta es simple: ¿a quién le hace peor? A vos. Siempre a vos.',
     },
     {
-      type: 'quote',
+      type: 'heading',
+      content: 'Lo que el rencor le hace a tu cuerpo',
+    },
+    {
+      type: 'paragraph',
       content:
-        'Sé Suiza. No entres en guerras que no son tuyas. No gastes energía en batallas que no te van a llevar a ningún lado.',
+        'Hay décadas de investigación sobre lo que las emociones negativas sostenidas le hacen al cuerpo. El rencor, la bronca crónica y el resentimiento no son solo estados emocionales. Son estados físicos. Cuando guardás bronca durante semanas o meses, tu cuerpo mantiene elevados los niveles de cortisol, la hormona del estrés. Y el cortisol elevado de manera crónica debilita el sistema inmune, interrumpe el sueño, sube la presión arterial, afecta la memoria y la capacidad de concentración.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Cada vez que revivís algo que te hicieron, cada vez que te dormís pensando en alguien que te lastimó, tu cuerpo paga el precio. No el de ellos. El tuyo. Volvé al Paso 6: el rencor también es algo que le das a tu cuerpo. Y es de las cosas más tóxicas que existen.',
+    },
+    {
+      type: 'heading',
+      content: 'Perdoná',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Perdoná. Aunque cueste. Aunque sientas que no podés. Aunque la otra persona no lo merezca. No perdonás por el otro. Perdonás por vos. Porque cada gramo de rencor que guardás adentro ocupa espacio. Ocupa energía. Te saca fuerza, te saca foco, te saca paz.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Los estudios sobre el perdón como proceso psicológico son consistentes en algo: las personas que perdonan no lo hacen por el otro. Lo hacen por ellas mismas. Y los efectos son medibles: bajan los niveles de cortisol, mejora la calidad del sueño, baja la presión arterial, mejora el humor. Perdonar no es decir "estuvo bien lo que me hiciste". Perdonar es decir "ya no voy a dejar que esto me siga haciendo daño".',
     },
     {
       type: 'heading',
@@ -602,82 +996,78 @@ const step7: StepContent = {
     {
       type: 'paragraph',
       content:
-        'Ser Suiza significa ser neutral. No entrar en chismes, no meterte en conflictos ajenos, no alimentar dramas. Cada minuto que gastás en la guerra de otro es un minuto que le robás a tu propio crecimiento. ¿Recordás el Paso 1? Todo cuenta. También lo que gastás en conflictos inútiles.',
-    },
-    {
-      type: 'heading',
-      content: 'Relaciones que nutren vs. relaciones tóxicas',
+        '¿Qué hace Suiza? Está bien con todos. Es neutral. No entra en guerras. No se mete en conflictos ajenos. No toma bandos. Y le va increíblemente bien. Vos tenés que ser Suiza. Siempre bien con todos. Neutral en todo. No entrar en peleas, discusiones, debates que no te suman nada. Porque nunca te van a sumar. Siempre te van a restar.',
     },
     {
       type: 'paragraph',
       content:
-        'Las relaciones son como la comida: hay relaciones que te nutren y relaciones que te intoxican. Así como en el Paso 6 aprendiste a elegir qué entra en tu cuerpo, acá aprendés a elegir qué relaciones entran en tu vida.',
+        'Alguien opina algo que no te gusta. Mirá qué interesante. Alguien te critica. Contestá tranquilo y seguí. Alguien te dice "qué aburrido que no tomás alcohol". A bueno, puede ser. Y listo. Suiza. Cada vez que entrás en una discusión innecesaria, perdés energía. Esa energía, ese foco, ese tiempo, lo podrías estar usando en tus objetivos. Suiza no pierde guerras. Porque no entra en ninguna.',
+    },
+    {
+      type: 'heading',
+      content: 'Tus relaciones son como tu alimentación',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Hay relaciones que te nutren y relaciones que te intoxican. Hay personas que cuando estás con ellas te sentís bien, con energía, con ganas. Y hay personas que cuando te vas sentís vacío, cansado, drenado. No hace falta cortar con nadie. Pero sí tenés que ser consciente de qué te genera cada persona. Y elegir dónde poner tu energía.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Tu familia primero. Siempre. Tu pareja, tus hijos, tu vieja, tu viejo, tus hermanos. Después las personas que te suman. Y después el resto. En ese orden. No al revés.',
+    },
+    {
+      type: 'heading',
+      content: 'La fórmula completa',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Todo cuenta (Paso 1). Cada micro-decisión en tus relaciones, cada vez que elegís soltar en vez de agarrar, cada vez que elegís ser Suiza en vez de entrar en guerra, te acerca a tu mejor versión. Tus objetivos (Paso 2) necesitan un entorno emocional limpio para prosperar. Tu entorno (Paso 3) incluye las emociones que permitís que entren en tu vida. Tu autopercepción (Paso 4) se fortalece cuando dejás de depender de la opinión ajena. Tu disciplina (Paso 5) aplica también a las emociones: soltar es un acto de disciplina. Tu cuerpo (Paso 6) siente todo: el estrés de las peleas, la angustia del rencor. Todo se somatiza.',
     },
     {
       type: 'table',
-      content: 'Qué soltar y qué priorizar',
+      content: 'Tu guía de relaciones',
       rows: [
         {
-          col1: 'Resentimientos viejos',
-          col2: 'Te roban energía presente por algo del pasado',
-          col3: 'Tu familia nuclear',
+          col1: 'Discusiones en redes sociales',
+          col2: 'Perdés tiempo y energía por gente que ni conocés',
+          col3: 'Una conversación real con tu pareja o tus hijos',
         },
         {
-          col1: 'Chismes y dramas',
-          col2: 'Consumen tiempo y energía sin retorno',
-          col3: 'Relaciones que te empujan a crecer',
+          col1: 'Bronca con alguien del pasado',
+          col2: 'El rencor solo vive en vos, sube el cortisol y te quita el sueño',
+          col3: 'Perdoná y usá esa energía en tus objetivos',
         },
         {
-          col1: 'Necesidad de tener razón',
-          col2: 'Destruye vínculos por ego',
-          col3: 'Conversaciones genuinas',
-        },
-        {
-          col1: 'Relaciones por obligación',
-          col2: 'Drenan sin aportar',
-          col3: 'Tiempo de calidad con quienes importan',
-        },
-        {
-          col1: 'Compararte con otros',
-          col2: 'Carrera que no podés ganar',
-          col3: 'Compararte con vos de ayer',
+          col1: 'Intentar convencer a quien no quiere cambiar',
+          col2: 'Nunca funciona y te deja frustrado',
+          col3: 'Tu ejemplo habla más que tus palabras',
         },
       ],
     },
     {
-      type: 'heading',
-      content: 'La familia primero, siempre',
-    },
-    {
-      type: 'paragraph',
+      type: 'quote',
       content:
-        'Al final del día, lo que más importa es tu familia. Tu pareja, tus hijos, tus padres. Todo lo demás es secundario. No sacrifiques lo más importante por lo urgente. La familia es tu base, tu red de contención, tu motor.',
-    },
-    {
-      type: 'heading',
-      content: 'La fórmula de los 7 pasos',
-    },
-    {
-      type: 'paragraph',
-      content:
-        'Todo se conecta: tus micro-decisiones (1) tienen dirección gracias a tus objetivos (2), tu entorno (3) te facilita o te frena, tu autopercepción (4) te da o te quita energía, la disciplina (5) es el motor, tu cuerpo (6) es el vehículo, y tu relación con el mundo (7) es el camino. Los 7 pasos funcionan juntos, no por separado.',
+        'Todo sucede en vos. Todo se siente en vos. Todo cuenta. Elegí ser Suiza. Elegí soltar. Elegí perdonar. No por el otro, por vos. Porque cada gramo de paz que ganás es un gramo de energía que podés usar para construir la vida que querés.',
     },
   ],
   exercise: {
     title: 'Limpiá tu relación con el mundo',
     description:
-      'Identificá a las personas con las que tenés conflictos pendientes, resentimientos, o relaciones que te restan. Practicá ser Suiza: neutral, sin guerras innecesarias.',
+      'Después de cada interacción importante preguntate una sola cosa: ¿me sumó o me restó? Después practicá ser Suiza, elegí soltar una bronca, y reorganizá a quién le das más energía.',
     weeks: [
-      'Semana 1-2: Hacé una lista de resentimientos y conflictos pendientes. No para resolverlos todos, sino para verlos con claridad.',
-      'Semana 3-4: Elegí uno y perdonalo. No hace falta llamar a la persona. El perdón es interno, es soltar.',
-      'Semana 5-8: Practicá ser Suiza en el día a día. Cuando alguien te invite a un drama, no entres. Observá cuánta energía te ahorrás.',
-      'Semana 9-12: Invertí esa energía ahorrada en tu familia y en las relaciones que te nutren. Medí la diferencia.',
+      'Días 1 a 7: Después de cada interacción importante preguntate: ¿me sumó o me restó? No juzgues, no actúes todavía. Solo observá cuánta energía te está costando el mundo que te rodea.',
+      'Días 8 a 21: Practicá ser Suiza. Una situación por día donde no reaccionás. Alguien te pica. No mordés. Lo registrás y seguís. Al principio cuesta. A los 21 días empieza a ser automático.',
+      'Días 22 a 28: Elegí UNA cosa que estés guardando adentro, una bronca, un resentimiento, algo que te pesa, y empezá a soltarla. Es un proceso interno. Decidís que ya no te va a restar más energía.',
+      'De ahí en adelante: Hacé la lista de las cinco personas a las que más energía le das. ¿Están en el orden correcto? ¿Tu familia está primero? Si no, ese es tu próximo trabajo.',
     ],
   },
   closingQuote:
-    'Los 7 pasos no son una receta mágica. Son un sistema. Y como todo sistema, funciona cuando lo aplicás completo, todos los días, un paso a la vez.',
+    'Todo sucede en vos. Todo se siente en vos. Todo cuenta. Elegí ser Suiza. Elegí soltar. Elegí perdonar. No por el otro, por vos.',
   connectionText:
-    'El Paso 7 cierra el círculo. Tu relación con el mundo es el resultado de los 6 pasos anteriores. Cuando los 7 funcionan juntos, tu vida cambia. No en un día, sino en 180.',
+    'Este es el último paso. El que cierra el círculo. Los 7 pasos empiezan con una idea simple: todo cuenta. Y terminan con otra igual de simple: todo sucede en vos. Cada micro-decisión, cada emoción, cada relación, cada bocado, cada pensamiento. Todo vive adentro tuyo. Y vos tenés el poder de elegir qué se queda y qué se va. Eso es cambiar tu vida en 180 días.',
 };
 
 // =============================================================================
