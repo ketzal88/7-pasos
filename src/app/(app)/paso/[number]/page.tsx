@@ -277,21 +277,28 @@ export default function PasoPage() {
             <p className="text-stone-600 mb-6 max-w-md mx-auto">
               Increíble. Ahora tu cerebro tiene un mapa completo para los próximos 180 días.
             </p>
-            {activeObjectiveCount >= 10 ? (
-              <Button size="lg" onClick={handleActivateTracker}>
-                <Flame size={18} />
-                Activar tracker de 180 días
-                <ArrowRight size={16} />
-              </Button>
-            ) : (
-              <Link href="/objetivos">
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <Link href="/cierre">
                 <Button size="lg">
-                  <Target size={18} />
-                  Escribir mis 10 objetivos
+                  <Sparkles size={18} />
+                  Leer el cierre del libro
                   <ArrowRight size={16} />
                 </Button>
               </Link>
-            )}
+              {activeObjectiveCount >= 10 ? (
+                <Button size="lg" variant="secondary" onClick={handleActivateTracker}>
+                  <Flame size={18} />
+                  Activar tracker
+                </Button>
+              ) : (
+                <Link href="/objetivos">
+                  <Button size="lg" variant="secondary">
+                    <Target size={18} />
+                    Escribir objetivos
+                  </Button>
+                </Link>
+              )}
+            </div>
           </CardContent>
         </Card>
       )}

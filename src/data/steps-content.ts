@@ -1091,3 +1091,181 @@ export const stepsContent: StepContent[] = [
 export function getStep(stepNumber: number): StepContent | undefined {
   return stepsContent.find((step) => step.number === stepNumber);
 }
+
+// =============================================================================
+// Book-level pages (not numbered steps)
+// =============================================================================
+
+export interface BookPage {
+  title: string;
+  subtitle: string;
+  icon: string;
+  sections: StepSection[];
+  closingQuote: string;
+}
+
+// =============================================================================
+// INTRO - Antes de empezar
+// =============================================================================
+
+export const introContent: BookPage = {
+  title: 'Antes de empezar',
+  subtitle: 'Este no es un libro de autoayuda',
+  icon: '🔥',
+  sections: [
+    {
+      type: 'paragraph',
+      content:
+        'Este no es un libro de autoayuda. No te voy a decir que visualices tu mejor versión. No te voy a pedir que repitas mantras frente al espejo ni que hagas un vision board. No te voy a prometer que en 30 días vas a tener la vida que siempre quisiste.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Este es un libro de matemática. De decisiones pequeñas que se acumulan. De hábitos que se construyen de a uno. De un cerebro que aprende a funcionar distinto cuando le das las instrucciones correctas. Y de vos. De la única persona que puede cambiar tu vida.',
+    },
+    {
+      type: 'heading',
+      content: 'Por qué escribí esto',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Hubo un momento en mi vida en que me di cuenta de que estaba viviendo en piloto automático. Hacía las mismas cosas todos los días, tomaba las mismas decisiones, me decía las mismas cosas a mí mismo, y después me preguntaba por qué los resultados siempre eran los mismos.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'No era malo. No era infeliz. Pero tampoco estaba construyendo nada. Estaba dejando que la vida pasara en vez de elegirla. Lo que cambió todo no fue una gran revelación. Fue entender algo que parece obvio pero que nadie te lo dice así de directo: cada decisión que tomás todos los días, por pequeña que sea, te está llevando a algún lado. Y si no elegís adónde, te lleva igual.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Empecé a leer. A estudiar. A probar. A fallar y a volver a probar. Y fui armando, de a poco, un sistema. No el sistema perfecto. El que a mí me funcionó. El que vi funcionar en otras personas. El que tiene respaldo en décadas de investigación sobre cómo funciona el cerebro humano cuando decide cambiar. Este libro es ese sistema.',
+    },
+    {
+      type: 'heading',
+      content: 'Cómo está organizado',
+    },
+    {
+      type: 'list',
+      content: 'Son 7 pasos. Cada uno construye sobre el anterior. Son una escalera, y la escalera se sube de abajo para arriba:',
+      items: [
+        'Paso 1 — Todo Cuenta: El fundamento de todo. Cada micro-decisión importa.',
+        'Paso 2 — Objetivos: Sin dirección, las micro-decisiones no tienen destino.',
+        'Paso 3 — Tu Entorno: Las personas que te rodean determinan más de lo que creés.',
+        'Paso 4 — Autopercepción: Cómo te hablás define lo que sos capaz de hacer.',
+        'Paso 5 — Disciplina: El músculo que sostiene todo lo demás.',
+        'Paso 6 — Tu Cuerpo: La máquina que ejecuta todos los pasos anteriores.',
+        'Paso 7 — Tu Relación con el Mundo: El escenario donde todo se juega.',
+      ],
+    },
+    {
+      type: 'heading',
+      content: 'Una sola regla antes de arrancar',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'No leas esto de corrido para terminar el libro. Leé un paso. Hacé el ejercicio. Viví con eso unos días. Después seguí. Este libro no te cambia la vida porque lo leíste. Te cambia la vida porque lo aplicás. Y la única forma de aplicarlo es de a uno, despacio, con honestidad.',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Los 180 días empiezan cuando vos decidís que empiezan. Pueden empezar hoy.',
+    },
+  ],
+  closingQuote:
+    'La vida que querés no está esperando que la encuentres. Está esperando que la construyas, una decisión a la vez.',
+};
+
+// =============================================================================
+// CIERRE - Tus 180 días empiezan hoy
+// =============================================================================
+
+export const cierreContent: BookPage = {
+  title: 'Tus 180 días empiezan hoy',
+  subtitle: 'Llegaste al final del libro. Pero esto no es un final.',
+  icon: '🎯',
+  sections: [
+    {
+      type: 'paragraph',
+      content:
+        'Llegaste al final del libro. Pero esto no es un final. Es el principio. Lo que acabás de leer son 7 pasos. Siete ideas que por separado ya tienen peso, pero que juntas forman algo distinto. Un sistema. Y como todo sistema, funciona cuando lo aplicás completo, todos los días, un paso a la vez.',
+    },
+    {
+      type: 'heading',
+      content: 'Lo que tenés ahora que antes no tenías',
+    },
+    {
+      type: 'list',
+      content: 'En este momento tenés:',
+      items: [
+        'Un marco para entender tus decisiones.',
+        '10 objetivos escritos en presente.',
+        'Una auditoría de tu entorno.',
+        'Un mantra que empieza tu día.',
+        'El hábito de la disciplina creciendo.',
+        'Un cuerpo que empieza a recibir mejores insumos.',
+        'Una relación más limpia con el mundo que te rodea.',
+      ],
+    },
+    {
+      type: 'paragraph',
+      content: 'Eso no es poco. Eso es todo.',
+    },
+    {
+      type: 'heading',
+      content: 'La única pregunta que importa',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Cada mañana, cuando te levantés, hacé una sola pregunta: ¿las decisiones que voy a tomar hoy me acercan o me alejan de la persona que quiero ser? No hace falta que sean perfectas. No hace falta que sean heroicas. Solo hace falta que la mayoría apunten en la dirección correcta. Eso, repetido 180 días, cambia una vida.',
+    },
+    {
+      type: 'heading',
+      content: 'Lo que pasa en 180 días',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'En 180 días, cada célula de tu cuerpo se renueva. No es metáfora. Es biología. En 180 días, el cuerpo que tenés hoy ya no es el mismo cuerpo. La pregunta es con qué materiales lo construiste.',
+    },
+    {
+      type: 'list',
+      content: 'En 180 días de micro-decisiones consistentes:',
+      items: [
+        'Instalaste entre 4 y 6 hábitos nuevos que antes no tenías.',
+        'Leíste entre 8 y 12 libros que antes no hubieran pasado.',
+        'Acumulás 60 horas de movimiento que no hubieran existido.',
+        'Le diste a tu cerebro 180 noches de buenos últimos minutos.',
+        'Le dijiste a tu subconsciente, todos los días, quién sos y hacia dónde vas.',
+        'Soltaste algo que te pesaba. Perdonaste algo que te costaba. Elegiste tu paz sobre tu ego.',
+      ],
+    },
+    {
+      type: 'paragraph',
+      content: 'Eso no es un cambio de vida. Eso es una vida distinta.',
+    },
+    {
+      type: 'heading',
+      content: 'Cuando llegues al día 180',
+    },
+    {
+      type: 'paragraph',
+      content:
+        'Vas a mirar para atrás y no vas a poder creer que la persona que eras hace seis meses tomaba las decisiones que tomaba. No porque seas otro. Sino porque finalmente sos vos. Y ahí vas a empezar 180 días más.',
+    },
+    {
+      type: 'quote',
+      content:
+        'No es lo que hacés una vez lo que define tu vida. Es lo que hacés todos los días, en lo pequeño, cuando nadie te ve. Eso sos vos. Y eso puede cambiar hoy.',
+    },
+    {
+      type: 'paragraph',
+      content: 'Todo cuenta. Empezá.',
+    },
+  ],
+  closingQuote:
+    'No es lo que hacés una vez lo que define tu vida. Es lo que hacés todos los días, en lo pequeño, cuando nadie te ve. Eso sos vos. Y eso puede cambiar hoy.',
+};

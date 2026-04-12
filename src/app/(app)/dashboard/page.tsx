@@ -141,9 +141,38 @@ function ReadingDashboard({ stepsRead }: { stepsRead: number[] }) {
         </Card>
       )}
 
-      {/* 7 Steps Timeline */}
+      {/* Intro card */}
       <div>
         <h2 className="text-lg font-semibold text-stone-900 mb-4">Los 7 Pasos</h2>
+        <div className="mb-3">
+          <Link href="/intro">
+            <Card hover className="border-amber-200 bg-amber-50/50">
+              <CardContent className="py-4 px-5">
+                <div className="flex items-center gap-4">
+                  <div className="w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0 bg-amber-100 text-xl">
+                    🔥
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <span className="text-xs font-semibold text-amber-600 uppercase">
+                      Introducción
+                    </span>
+                    <h3 className="font-semibold text-stone-900 text-sm">
+                      Antes de empezar
+                    </h3>
+                    <p className="text-xs text-stone-500 mt-0.5">
+                      Por qué este es un libro de matemática, no de autoayuda
+                    </p>
+                  </div>
+                  <ChevronRight size={16} className="text-stone-300 flex-shrink-0" />
+                </div>
+              </CardContent>
+            </Card>
+          </Link>
+        </div>
+      </div>
+
+      {/* 7 Steps Timeline */}
+      <div>
         <div className="space-y-3">
           {stepNames.map((name, i) => {
             const stepNum = i + 1;
